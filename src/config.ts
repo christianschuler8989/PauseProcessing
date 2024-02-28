@@ -28,7 +28,7 @@ const options: Reveal.Options = {
 	// slide progress bar
 	progress: false,
 	// slide transition
-	transition: 'concave',
+	transition: 'fade',
 	// bring your own layout
 	disableLayout: true,
 	// display mode used to show slides

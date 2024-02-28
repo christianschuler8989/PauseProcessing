@@ -24,17 +24,15 @@
 	:root{
 		--tumblue: #0065BD;
 		--secondblue: #8AB1DA;
-		--titlegreen: #004800;
-		--textgreen: #44A944;
-		--themecolor: var(--titlegreen);
-		--themecolorlight: var(--textgreen);
+		--themecolor: var(--tumblue);
+		--themecolorlight: var(--secondblue);
 	}
 	.topbar{
 		/* margin-top: 0.5vh; */
 		width:100%; 
 		height: 7vh; 
 		background: var(--themecolor); 
-		font-size:2.5vh;
+		font-size:2vh;
 		color: var(--themecolorlight);
 		justify-content: center;
 		align-items: center;
