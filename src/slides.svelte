@@ -111,52 +111,92 @@
 						Timo Baumann
 					</div>
 					<!-- Homepage -->
-					<div class="flex w-[22vw] text-[1vh] items-center justify-center gap-[50px]">
+					<div class="flex w-[22vw] text-[1vh] items-center justify-center gap-[50px] p-1">
 						https://christianschuler8989.github.io/
 					</div>
-					<div class="flex w-[22vw] text-[1vh] items-center justify-center gap-[50px]">
+					<div class="flex w-[22vw] text-[1vh] items-center justify-center gap-[50px] p-1">
 						https://bajuka.github.io/
 					</div>
-					<div class="flex w-[22vw] text-[1vh] items-center justify-center gap-[50px]">
+					<div class="flex w-[22vw] text-[1vh] items-center justify-center gap-[50px] p-1">
 						https://debjoy10.github.io/
 					</div>
-					<div class="flex w-[22vw] text-[1vh] items-center justify-center gap-[50px]">
+					<div class="flex w-[22vw] text-[1vh] items-center justify-center gap-[50px] p-1">
 						https://timobaumann.de/work/Main/HomePage
 					</div>
 					<!-- Images -->
-					<img src="Christian_Schuler_01_Lecturing.jpg" class="h-[40vh]" alt="Text">
+					<figure class="h-[60vh] w-[22vw] float-left mx-auto my-auto">
+						<img src="Christian_Schuler_01_Lecturing.jpg" alt="christian" class="h-[40vh]">
+						<figcaption class="text-[2.3vh]">
+							About to finish his masters in computer science at University of Hamburg.<br>
+							Christian Schuler likes colors, languages and eats more pizza in one year than any of you in your lifetime!<br>
+						</figcaption>
+					</figure>
+					<figure class="h-[60vh] w-[22vw] float-left mx-auto my-auto">
+						<img src="Shravan_Nayak_github.jpeg" alt="shravan" class="h-[40vh]">
+						<figcaption class="text-[2.3vh]">
+							Pursuing his research masters in computer science at Mila and the University of Montreal, supervised by Prof. Aishwarya Agrawal.<br>
+							His focus lies in developing vision language systems that transcend linguistic barriers and cater to diverse demographics. 
+						</figcaption>
+					</figure>
+					<figure class="h-[60vh] w-[22vw] float-left mx-auto my-auto">
+						<img src="Debjoy_Saha_Googlescholar.jpeg" alt="debjoy" class="h-[40vh]">
+						<figcaption class="text-[2.3vh]">
+							B.Tech + M.Tech (Dual Degree) student at IIT Kharagpur, pursuing joint degrees in Electronics and Computer Science.<br>
+							Broadly, his research interests lie in machine learning for image, language and speech processing.
+						</figcaption>
+					</figure>
+					<figure class="h-[60vh] w-[22vw] float-left mx-auto my-auto">
+						<img src="Timo_Baumann_01.jpg" alt="timo" class="h-[40vh]">
+						<figcaption class="text-[2.3vh]">
+							Professor in Artificial Intelligence and Natural Language Processing at the School for CS and Maths at OTH Regensburg.<br>
+							He researches spoken language, in particular in interactive and multi-modal scenarios, such as in spoken dialogue systems.
+						</figcaption>
+					</figure>
+					
+					<figure class="flex h-[12vh] w-[22vw] items-center justify-center mx-auto my-auto">
+						<img src="UHH_Universität_Hamburg_Logo_mit_Schrift_2010_Farbe_CMYK.svg.png" alt="christian_hamburg" class="h-[10vh]">
+					</figure>
+					<figure class="flex h-[12vh] w-[22vw] items-center justify-center mx-auto my-auto">
+						<img src="250px-Universite_de_Montreal_logo.svg.png" alt="shravan_montreal" class="h-[10vh]">
+					</figure>
+					<figure class="flex h-[12vh] w-[22vw] items-center justify-center mx-auto my-auto">
+						<img src="IIT_Kharagpur_Logo.svg.png" alt="debjoy_kharagpur" class="h-[10vh]">
+					</figure>
+					<figure class="flex h-[12vh] w-[22vw] items-center justify-center mx-auto my-auto">
+						<img src="Logo-OTH-Regensburg.png" alt="timo_regensburg" class="h-[10vh]">
+					</figure>
+
+					<!-- <img src="Christian_Schuler_01_Lecturing.jpg" class="h-[40vh]" alt="Text">
 					<img src="Shravan_Nayak_github.jpeg" class="h-[40vh]" alt="Text">
 					<img src="Debjoy_Saha_Googlescholar.jpeg" class="h-[40vh]" alt="Text">
-					<img src="Timo_Baumann_01.jpg" class="h-[40vh]" alt="Text">	
+					<img src="Timo_Baumann_01.jpg" class="h-[40vh]" alt="Text">	 -->
+
 					<!-- Description -->
-					<div class="flex w-[22vw] text-[2vh] items-center justify-center gap-[50px] p-2">
+					<!-- <div class="flex w-[22vw] text-[2vh] items-center justify-center gap-[50px] p-2">
 						About to finish his masters in computer science at University of Hamburg
 						Christian Schuler likes colors and languages and eats more pizza in one year than any of you in your lifetime!<br>
-						<!-- https://christianschuler8989.github.io/ -->
 					</div>
 					<div class="flex w-[22vw] text-[2vh] items-center justify-center gap-[50px] p-2">
 						Currently pursuing his research masters in computer science at Mila and the University of Montreal, supervised by Prof. Aishwarya Agrawal.<br>
 						At MILA, his focus lies in developing vision language systems that transcend linguistic barriers and cater to diverse demographics. 
-						<!-- https://bajuka.github.io/ -->
 					</div>
 					<div class="flex w-[22vw] text-[2vh] items-center justify-center gap-[50px] p-2">
 						B.Tech + M.Tech (Dual Degree) student at IIT Kharagpur, pursuing joint degrees in Electronics and Computer Science.<br>
 						Broadly, his research interests lie in machine learning for image, language and speech processing.
-						<!-- https://debjoy10.github.io/ -->
 					</div>
 					<div class="flex w-[22vw] text-[2vh] items-center justify-center gap-[50px] p-2">
 						Professor in Artificial Intelligence and Natural Language Processing at the School for CS and Maths at OTH Regensburg.<br>
 						He researches spoken language, in particular in interactive and multi-modal scenarios, such as in spoken dialogue systems.
-						<!-- https://timobaumann.de/work/Main/HomePage -->
-					</div>
+					</div> -->
 					<!-- Affiliations -->
-					<img src="UHH_Universität_Hamburg_Logo_mit_Schrift_2010_Farbe_CMYK.svg.png" class="flex h-[10vh] items-center justify-center mx-auto my-auto" alt="Text">
-					<!-- https://de.wikipedia.org/wiki/Datei:UHH_Universit%C3%A4t_Hamburg_Logo.svg#/media/Datei:UHH_Universit%C3%A4t_Hamburg_Logo_mit_Schrift_2010_Farbe_CMYK.svg -->
+					<!-- <img src="UHH_Universität_Hamburg_Logo_mit_Schrift_2010_Farbe_CMYK.svg.png" class="flex h-[10vh] items-center justify-center mx-auto my-auto" alt="Text">
 					<img src="250px-Universite_de_Montreal_logo.svg.png" class="flex h-[10vh] items-center justify-center mx-auto my-auto" alt="Text">
-					<!-- https://en.wikipedia.org/wiki/File:Universite_de_Montreal_logo.svg -->
 					<img src="IIT_Kharagpur_Logo.svg.png" class="flex h-[10vh] items-center justify-center mx-auto my-auto" alt="Text">
+					<img src="Logo-OTH-Regensburg.png" class="flex h-[10vh] w-[22vw] items-center justify-center mx-auto my-auto" alt="Text"> -->
+					
+					<!-- https://de.wikipedia.org/wiki/Datei:UHH_Universit%C3%A4t_Hamburg_Logo.svg#/media/Datei:UHH_Universit%C3%A4t_Hamburg_Logo_mit_Schrift_2010_Farbe_CMYK.svg -->
+					<!-- https://en.wikipedia.org/wiki/File:Universite_de_Montreal_logo.svg -->
 					<!-- https://en.wikipedia.org/wiki/IIT_Kharagpur#/media/File:IIT_Kharagpur_Logo.svg -->
-					<img src="Logo-OTH-Regensburg.png" class="flex h-[10vh] w-[22vw] items-center justify-center mx-auto my-auto" alt="Text">
 					<!-- https://de.m.wikipedia.org/wiki/Datei:Logo-OTH-Regensburg.png -->
 				</div>
 			</mybody>
@@ -171,54 +211,15 @@
 
 			<mybody>
 				<figure class="w-[90vw] float-left mx-auto my-auto">
-					<img src="PauseProcessingLargeImages-DataPausesMerkelSmall.png" alt="virtual" class="h-[50vh] mx-auto my-[3vh]">
-					<figcaption>Bacon Ipsum Dolor Cheesecake.<br>
-						Pizza? You mean "yum-yum in my tum-tum"! :D</figcaption>
+					<img src="PauseProcessingLargeImages-DataPausesMerkelSmall.png" alt="virtual" class="w-[75vw] mx-auto my-[3vh]">
+					<figcaption>
+						Can we detect linguistic information hidden in the video sequence during a pause?
+					</figcaption>
 				</figure>
-
-
-				<!-- <div class="grid" style="grid-template-columns: auto;">
-					<img src="PauseProcessingLargeImages-DataPausesMerkelSmall.png" alt="Introduction Problem" class="h-[50vh]">
-				
-					<div class="flex w-full text-[5vh] items-center justify-center gap-[50px] p-5">
-						Bacon Ipsum Dolor Cheesecake.<br>
-						Pizza? You mean "yum-yum in my tum-tum"! :D
-					</div>
-				</div> -->
 			</mybody>
 		</Layout>
 		<Notes>
 			What is it, that we are doing?
-		</Notes>
-	</Slide>
-
-
-	<!-- Methodology ####################################################### -->
-	<script>newChapter("Methodology");</script>
-	<Slide>
-		<Layout>
-			<titlebar style="display:block;">
-				Methodology
-			</titlebar>
-
-			<mybody>
-				<figure class="w-[100vw] float-left ml-[5vh] mt-[5vh]">
-					<img src="PauseProcessing-DataPauses.png" alt="virtual" class="h-[50vh] mx-auto my-[3vh]">
-					<figcaption>General overview of our experiment setup for first word prediction and discriminator training.</figcaption>
-				</figure>
-
-				<!-- <div class="grid" style="grid-template-columns: auto;">
-					<img src="PauseProcessing-DataPauses.png" alt="Introduction Problem" class="w-[75vw]">
-				
-					<div class="flex w-full text-[5vh] items-center justify-center gap-[50px] p-5">
-						General overview of our experiment setup for first word prediction and discriminator training.
-					</div>
-				</div> -->
-			</mybody>
-			
-		</Layout>
-		<Notes>
-			What is it, that others were doing?
 		</Notes>
 	</Slide>
 
@@ -232,20 +233,97 @@
 			</titlebar>
 
 			<mybody>
-				<div class="grid" style="grid-template-columns: auto;">
+				<figure class="h-[27vh] w-[95vw] float-left mx-auto my-auto">
 					<a href="https://github.com/deeplsd/Merkel-Podcast-Corpus" target="_blank" rel="noopener noreferrer">
-						<img src="merkel_podcast_corpus_title.jpg" alt="Data Quality" class="w-[100vw]">
+						<img src="merkel_podcast_corpus_title.jpg" alt="merkel_podcast_corpus" class="w-[95vw] mx-auto my-[1vh]">
 					</a>
-					
-					<div class="flex w-full text-[5vh] items-center justify-center gap-[50px] p-5">
+					<figcaption>
 						The corpus is split roughly equally between (semi-)prepared speeches and interview dialogues.
-					</div>
-				</div>
+					</figcaption>
+				</figure>
 			</mybody>
 			
 		</Layout>
 		<Notes>
 			What is it, that others were doing?
+		</Notes>
+	</Slide>
+
+	<Slide>
+		<Layout>
+			<titlebar style="display:block;">
+				Data Annotation for Pause Processing I - Ideal Case
+			</titlebar>
+
+			<mybody>
+				<figure class="h-[75vh] float-left mx-auto my-auto">
+					<img src="annotation_merkel_slick.png" alt="data_annotation_ideal_case" class="h-[65vh] mx-auto my-[1vh]">
+					<figcaption>
+						Ideal case: Merkel focus and center of the video during the pause.
+					</figcaption>
+				</figure>
+			</mybody>
+			
+		</Layout>
+		<Notes>
+			Ideal case: Merkel focus and center of the video during the pause.
+		</Notes>
+	</Slide>
+
+	<Slide>
+		<Layout>
+			<titlebar style="display:block;">
+				Data Annotation for Pause Processing II - Obvious Bad Cases
+			</titlebar>
+
+			<mybody>
+				<figure class="h-[75vh] float-left mx-auto my-auto">
+					<img src="annotation_interviewer_slick.png" alt="data_annotation_bad_case_interviewer" class="h-[65vh] mx-auto my-[1vh]">
+					<figcaption>
+						Someone else than Merkel during the pause.
+					</figcaption>
+				</figure>
+
+				<figure class="h-[75vh] float-left mx-auto my-auto">
+					<img src="annotation_distractor_slick.png" alt="data_annotation_bad_case_distractor" class="h-[65vh] mx-auto my-[1vh]">
+					<figcaption>
+						Distractors preventing view during the pause.
+					</figcaption>
+				</figure>
+			</mybody>
+			
+		</Layout>
+		<Notes>
+			Obvious bad cases: Someone else than Merkel or distractors present during the pause.
+		</Notes>
+	</Slide>
+
+	<Slide>
+		<Layout>
+			<titlebar style="display:block;">
+				Data Annotation for Pause Processing III - Tricky Bad Cases
+			</titlebar>
+
+			<mybody>
+				<figure class="h-[75vh] float-left mx-auto my-auto">
+					<img src="annotation_cut_from_merkel_slick.png" alt="data_annotation_tricky_case_merkel" class="h-[65vh] mx-auto my-[1vh]">
+					<figcaption>
+						Pause starts with Merkel in view.
+					</figcaption>
+				</figure>
+
+				<figure class="h-[75vh] float-left mx-auto my-auto">
+					<img src="annotation_cut_to_interviewer_slick.png" alt="data_annotation_tricky_case_interviewer" class="h-[65vh] mx-auto my-[1vh]">
+					<figcaption>
+						Cutting to the interviewer during the Pause.
+					</figcaption>
+				</figure>
+			</mybody>
+			
+		</Layout>
+		<Notes>
+			Pause starts with Merkel in view. <br>
+			Cutting to the interviewer during the Pause.
 		</Notes>
 	</Slide>
 
@@ -256,22 +334,68 @@
 			</titlebar>
 
 			<mybody>
-				<div class="grid" style="grid-template-columns: auto;">
-					<img src="PauseProcessingLargeImages-DataPausesMerkel.png" alt="Data Quality" class="w-[100vw]">
-				
-					<div class="flex w-full text-[5vh] items-center justify-center gap-[50px] p-5">
+				<figure class="h-[40vh] w-[95vw] float-left mx-auto my-auto">
+					<img src="PauseProcessingLargeImages-DataPausesMerkel.png" alt="data_quality" class="w-[95vw] mx-auto my-[1vh]">
+					<figcaption>
 						Data example of a pause sequence and surrounding video sequences.
-					</div>
-				</div>
+					</figcaption>
+				</figure>
 			</mybody>
 			
 		</Layout>
 		<Notes>
-			What is it, that others were doing?
+			Data example of a pause sequence and surrounding video sequences.
 		</Notes>
 	</Slide>
 
-	
+	<Slide>
+		<Layout>
+			<titlebar style="display:block;">
+				Data for Annotation Scheme
+			</titlebar>
+
+			<mybody>
+				<figure class="h-[75vh] w-[95vw] float-left mx-auto my-auto">
+					<img src="PauseProcessing-AnnotationSetup.png" alt="annotation_setup" class="h-[65vh] mx-auto my-[1vh]">
+					<figcaption>
+						Data preparation for annotation task.
+					</figcaption>
+				</figure>
+			</mybody>
+			
+		</Layout>
+		<Notes>
+			Data preparation for annotation task.
+		</Notes>
+	</Slide>
+
+
+
+	<!-- Methodology ####################################################### -->
+	<script>newChapter("Methodology");</script>
+	<Slide>
+		<Layout>
+			<titlebar style="display:block;">
+				Methodology
+			</titlebar>
+
+			<mybody>
+				<figure class="h-[75vh] w-[95vw] float-left mx-auto my-auto">
+					<img src="PauseProcessing-DataPauses.png" alt="virtual" class="w-[65vw] mx-auto my-[3vh]">
+					<figcaption>
+						General overview of our experiment setup for first word prediction and discriminator training.
+					</figcaption>
+				</figure>
+			</mybody>
+			
+		</Layout>
+		<Notes>
+			General overview of our experiment setup for first word prediction and discriminator training.
+		</Notes>
+	</Slide>
+
+
+
 
 
 	<!-- Experiment ####################################################### -->
@@ -279,19 +403,22 @@
 	<Slide>
 		<Layout>
 			<titlebar style="display:block;">
-				Motivation
+				Experiment
 			</titlebar>
 
 			<mybody>
-				<div class="flex w-full text-[5vh] items-center justify-center gap-[50px]">
-					Bacon Ipsum Dolor Cheesecake.<br>
-					Pizza? You mean "yum-yum in my tum-tum"! :D
-				</div>
+				<figure class="h-[75vh] w-[95vw] float-left mx-auto my-auto">
+					<img src="construction-itsupport.png" alt="experiment" class="h-[55vh] mx-auto my-[3vh]">
+					<figcaption>
+						Bacon Ipsum Dolor Cheesecake.<br>
+						Pizza? You mean "yum-yum in my tum-tum"! :D
+					</figcaption>
+				</figure>
 			</mybody>
 			
 		</Layout>
 		<Notes>
-			What is it, that others were doing?
+			Experiment
 		</Notes>
 	</Slide>
 
@@ -301,19 +428,79 @@
 	<Slide>
 		<Layout>
 			<titlebar style="display:block;">
-				Motivation
+				Results
 			</titlebar>
 
 			<mybody>
-				<div class="flex w-full text-[5vh] items-center justify-center gap-[50px]">
-					Bacon Ipsum Dolor Cheesecake.<br>
-					Pizza? You mean "yum-yum in my tum-tum"! :D
-				</div>
+				<figure>
+					<table>
+						<tr>
+							<th></th>
+							<th>Correct</th>
+							<th>Mean</th>
+							<th>Stddev</th>
+							<th>Median</th>
+							<th>p-value<br>binomial</th>
+							<th>p-value<br>t-test</th>
+						</tr>
+						<tr>
+							<td><b>OpenFace</b></td>
+							<td>0.51</td>
+							<td>0.52</td>
+							<td>0.47</td>
+							<td>0.57</td>
+							<td>.28</td>
+							<td>.12</td>
+						</tr>
+						<tr>
+							<td><b>CLIP</b></td>
+							<td>0.56</td>
+							<td>0.51</td>
+							<td>0.07</td>
+							<td>0.51</td>
+							<td>.002</td>
+							<td>.0001</td>
+						</tr>
+						<tr>
+							<td><b>Timesformer</b></td>
+							<td>0.53</td>
+							<td>0.51</td>
+							<td>0.08</td>
+							<td>0.51</td>
+							<td>.07</td>
+							<td>.0001</td>
+						</tr>
+					  </table>
+					<figcaption>
+						Comparing the experiment result statistics of OpenFace, CLIP, and Timesformer.
+					</figcaption>
+				</figure>
+			</mybody>
+		</Layout>
+		<Notes>
+			Results
+		</Notes>
+	</Slide>
+
+	<Slide>
+		<Layout>
+			<titlebar style="display:block;">
+				Discussion
+			</titlebar>
+
+			<mybody>
+				<figure class="h-[75vh] w-[95vw] float-left mx-auto my-auto">
+					<img src="construction-itsupport.png" alt="discussion" class="h-[55vh] mx-auto my-[3vh]">
+					<figcaption>
+						Bacon Ipsum Dolor Cheesecake.<br>
+						Pizza? You mean "yum-yum in my tum-tum"! :D
+					</figcaption>
+				</figure>
 			</mybody>
 			
 		</Layout>
 		<Notes>
-			What is it, that others were doing?
+			Discussion
 		</Notes>
 	</Slide>
 
@@ -323,19 +510,44 @@
 	<Slide>
 		<Layout>
 			<titlebar style="display:block;">
-				Motivation
+				Conclusions
 			</titlebar>
 
 			<mybody>
-				<div class="flex w-full text-[5vh] items-center justify-center gap-[50px]">
-					Bacon Ipsum Dolor Cheesecake.<br>
-					Pizza? You mean "yum-yum in my tum-tum"! :D
-				</div>
+				<figure class="h-[75vh] w-[95vw] float-left mx-auto my-auto">
+					<img src="construction-itsupport.png" alt="conlcusions" class="h-[55vh] mx-auto my-[3vh]">
+					<figcaption>
+						Bacon Ipsum Dolor Cheesecake.<br>
+						Pizza? You mean "yum-yum in my tum-tum"! :D
+					</figcaption>
+				</figure>
 			</mybody>
 			
 		</Layout>
 		<Notes>
-			What is it, that others were doing?
+			Conclusions
+		</Notes>
+	</Slide>
+
+	<Slide>
+		<Layout>
+			<titlebar style="display:block;">
+				Future Work
+			</titlebar>
+
+			<mybody>
+				<figure class="h-[75vh] w-[95vw] float-left mx-auto my-auto">
+					<img src="construction-itsupport.png" alt="future_work" class="h-[55vh] mx-auto my-[3vh]">
+					<figcaption>
+						Bacon Ipsum Dolor Cheesecake.<br>
+						Pizza? You mean "yum-yum in my tum-tum"! :D
+					</figcaption>
+				</figure>
+			</mybody>
+			
+		</Layout>
+		<Notes>
+			Future Work
 		</Notes>
 	</Slide>
 
@@ -345,19 +557,22 @@
 	<Slide>
 		<Layout>
 			<titlebar style="display:block;">
-				Motivation
+				Appendix
 			</titlebar>
 
 			<mybody>
-				<div class="flex w-full text-[5vh] items-center justify-center gap-[50px]">
-					Bacon Ipsum Dolor Cheesecake.<br>
-					Pizza? You mean "yum-yum in my tum-tum"! :D
-				</div>
+				<figure class="h-[75vh] w-[95vw] float-left mx-auto my-auto">
+					<img src="construction-itsupport.png" alt="appendix" class="h-[55vh] mx-auto my-[3vh]">
+					<figcaption>
+						Bacon Ipsum Dolor Cheesecake.<br>
+						Pizza? You mean "yum-yum in my tum-tum"! :D
+					</figcaption>
+				</figure>
 			</mybody>
 			
 		</Layout>
 		<Notes>
-			What is it, that others were doing?
+			Appendix
 		</Notes>
 	</Slide>
 
@@ -492,5 +707,25 @@
 			padding: 2px;
 			text-align: center;
 		}
+		/* caption{
+			caption-side: bottom;
+			padding: 10px;
+			font-weight: bold;
+		} */
+		table{
+			border-collapse: collapse;
+			border: 2px solid rgb(140,140,140);
+			font-family: sans-serif;
+			font-size: 2.8rem;
+			letter-spacing: 1px;
+		}
+		tablecaption{
+			caption-side: bottom;
+			background-color: rgb(192,242,202);
+			color: black;
+			font-style: italic;
+			padding: 2px;
+			text-align: center;
+		} 
 	</style>
 </Presentation>

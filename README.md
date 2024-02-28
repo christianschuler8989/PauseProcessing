@@ -159,6 +159,7 @@ Helpful resources we would like to give credit to:
 * [Potato: the POrtable Text Annotation TOol](https://github.com/davidjurgens/potato?tab=readme-ov-file)
 * [py-webrtcvad, a python interface to the WebRTC Voice Activity Detector (VAD)](https://github.com/wiseman/py-webrtcvad)
 * [Best-README-Template](https://github.com/othneildrew/Best-README-Template) 
+* [AwesomeAnranSlides for Online Presentation Slides](https://github.com/AnranW/AwesomeAnranSlides)
 
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
