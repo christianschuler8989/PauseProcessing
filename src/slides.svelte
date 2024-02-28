@@ -1,5 +1,5 @@
 <script lang="ts">
-	import { Presentation, Slide, Notes } from '@components'
+	import { Presentation, Slide, Notes, Media } from '@components'
 	import Layout from './layout.svelte'
 </script>
 
@@ -561,13 +561,9 @@
 			</titlebar>
 
 			<mybody>
-				<figure class="h-[75vh] w-[95vw] float-left mx-auto my-auto">
-					<img src="construction-itsupport.png" alt="appendix" class="h-[55vh] mx-auto my-[3vh]">
-					<figcaption>
-						Bacon Ipsum Dolor Cheesecake.<br>
-						Pizza? You mean "yum-yum in my tum-tum"! :D
-					</figcaption>
-				</figure>
+				<div class="w-full h-[1000px] bg-gray-700"> <!-- Main Panel Bottom-->
+					<iframe src="2024-ESSV-Schuler_Nayak_Saha_Baumann-CanWeSeeYourResponseBeforeYouSpeak.pdf#page=1&zoom=80" frameBorder="0" scrolling="auto" height="100%" width="100%" title="Documentation"></iframe>
+				</div>
 			</mybody>
 			
 		</Layout>
