@@ -1,22 +1,24 @@
-venvs/*
-model/*
-source/.idea
-source/.ipynb_checkpoints
+# Logs
+logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+lerna-debug.log*
 
-data/merkel_podcast_corpus/*
-!data/merkel_podcast_corpus/video_vectors/
-data/merkel_podcast_corpus/video_vectors/*
-!data/merkel_podcast_corpus/video_vectors/OpenFaced/
-data/merkel_podcast_corpus/video_vectors/OpenFaced/*
-!data/merkel_podcast_corpus/video_vectors/OpenFaced/openface_features.pkl
-!data/merkel_podcast_corpus/video_vectors/OpenFaced/video_embedding.pkl
-!data/merkel_podcast_corpus/video_vectors/VideoCLIP/
-data/merkel_podcast_corpus/video_vectors/VideoCLIP/*
-!data/merkel_podcast_corpus/video_vectors/VideoCLIP/clip_video_embedding.pkl
-!data/merkel_podcast_corpus/annotations/
+node_modules
+dist
+dist-ssr
+*.local
 
-potato/*
-!potato/speaker_changes/
-potato/speaker_changes/data/*
-potato/speaker_changes/user_config.json
-
+# Editor directories and files
+.vscode/*
+!.vscode/extensions.json
+.idea
+.DS_Store
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
