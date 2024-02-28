@@ -19,7 +19,7 @@
 <br />
 <div align="center">
   <a href="https://github.com/christianschuler8989/PauseProcessing">
-    <img src="images/logo.png" alt="Logo" width="200" height="200">
+    <img src="pulic/logo.png" alt="Logo" width="200" height="200">
   </a>
 
   <h3 align="center">Exploring the pauses in-between utterences.</h3>
