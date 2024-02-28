@@ -561,8 +561,8 @@
 			</titlebar>
 
 			<mybody>
-				<div class="w-full h-[1000px] bg-gray-700"> <!-- Main Panel Bottom-->
-					<iframe src="2024-ESSV-Schuler_Nayak_Saha_Baumann-CanWeSeeYourResponseBeforeYouSpeak.pdf#page=1&zoom=80" frameBorder="0" scrolling="auto" height="100%" width="100%" title="Documentation"></iframe>
+				<div class="h-[75vh] w-[95vw]">
+					<iframe src="2024-ESSV-Schuler_Nayak_Saha_Baumann-CanWeSeeYourResponseBeforeYouSpeak.pdf#page=1&zoom=200" frameBorder="0" scrolling="auto" height="100%" width="100%" title="ESSV Publication"></iframe>
 				</div>
 			</mybody>
 			
