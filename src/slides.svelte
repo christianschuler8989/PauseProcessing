@@ -90,6 +90,159 @@
 
 	<!-- Introduction ####################################################### -->
 	<script> newChapter("Introduction"); </script>
+
+	<!-- Video Testing
+		# Pause Snippets
+		cropped_2017-03-18_226-53_227-22.mp4
+		cropped_2017-04-01_124-74_125-49.mp4
+		cropped_2017-06-24_288-45_289-11.mp4
+		cropped_2017-08-26_291-48_292-23.mp4
+		cropped_2017-09-02_400-95_401-64.mp4
+
+		# Padded Pauses
+		cropped_2018-02-10_180-72_181-53_padded.mp4
+
+		# Same padded Pause Extracts
+		cropped_2018-02-10_180-72_181-53_PostP8s9.mp4
+		cropped_2018-02-10_180-72_181-53_PostP5s6.mp4
+		cropped_2018-02-10_180-72_181-53_PostP2s3.mp4
+		cropped_2018-02-10_180-72_181-53_PreP2s3.mp4
+		cropped_2018-02-10_180-72_181-53_PreP5s6.mp4
+		cropped_2018-02-10_180-72_181-53_PreP8s9.mp4
+
+	-->
+	<Slide>
+		<Layout>
+			<titlebar style="display:block;">
+				Testing Embedding of Videos in Presentation A-1x1
+			</titlebar>
+			<mybody>
+				<div class="grid mx-auto my-auto" style="grid-template-columns: auto;">
+					<video controls class="w-[68vw] h-[75vh] mx-auto my-auto">
+						<source src="cropped_2017-03-18_226-53_227-22.mp4" type="video/mp4" />
+						<track kind="captions" label="english_captions" srclang="en" src="captions_pause.vtt"/>
+					</video>
+
+					<!-- <div class="flex w-[22vw] mx-auto my-auto gap-[100px]">
+						subtitle position
+					</div> -->
+				</div>
+			</mybody>
+		</Layout>
+	</Slide>
+
+	<Slide>
+		<Layout>
+			<titlebar style="display:block;">
+				Testing Embedding of Videos in Presentation B-1x2
+			</titlebar>
+			<mybody>
+				<div class="grid mx-auto my-auto" style="grid-template-columns: auto auto;">
+					<video controls class="w-[48vw] mx-auto my-auto p-2">
+						<source src="cropped_2017-03-18_226-53_227-22.mp4" type="video/mp4" />
+						<track kind="captions" label="english_captions" srclang="en" src="captions_pause.vtt"/>
+					</video>
+					<video controls class="w-[48vw] mx-auto my-auto p-2">
+						<source src="cropped_2017-04-01_124-74_125-49.mp4" type="video/mp4" />
+						<track kind="captions" label="english_captions" srclang="en" src="captions_pause.vtt"/>
+					</video>
+				</div>
+				<!-- Alternative Code without using a Grid: -->
+				<!-- <video controls class="w-[48vw] mx-auto my-auto">
+					<source src="cropped_2017-03-18_226-53_227-22.mp4" type="video/mp4" />
+					<track kind="captions" label="english_captions" srclang="en" src="captions_pause.vtt"/>
+				</video>
+				<video controls class="w-[48vw] mx-auto my-auto">
+					<source src="cropped_2017-04-01_124-74_125-49.mp4" type="video/mp4" />
+					<track kind="captions" label="english_captions" srclang="en" src="captions_pause.vtt"/>
+				</video> -->
+			</mybody>
+		</Layout>
+	</Slide>
+
+	<Slide>
+		<Layout>
+			<titlebar style="display:block;">
+				Testing Embedding of Videos in Presentation C-2x2
+			</titlebar>
+			<mybody>
+				<div class="grid mx-auto my-auto" style="grid-template-columns: auto auto;">
+					<video controls class="w-[34vw] h-[38vh] mx-auto my-auto p-2">
+						<source src="cropped_2017-03-18_226-53_227-22.mp4" type="video/mp4" />
+						<track kind="captions" label="english_captions" srclang="en" src="captions_pause.vtt"/>
+					</video>
+					<video controls class="w-[34vw] h-[38vh] mx-auto my-auto p-2">
+						<source src="cropped_2017-04-01_124-74_125-49.mp4" type="video/mp4" />
+						<track kind="captions" label="english_captions" srclang="en" src="captions_pause.vtt"/>
+					</video>
+
+					<video controls class="w-[34vw] h-[38vh] mx-auto my-auto p-2">
+						<source src="cropped_2017-06-24_288-45_289-11.mp4" type="video/mp4" />
+						<track kind="captions" label="english_captions" srclang="en" src="captions_pause.vtt"/>
+					</video>
+					<video controls class="w-[34vw] h-[38vh] mx-auto my-auto p-2">
+						<source src="cropped_2017-08-26_291-48_292-23.mp4" type="video/mp4" />
+						<track kind="captions" label="english_captions" srclang="en" src="captions_pause.vtt"/>
+					</video>
+				</div>
+			</mybody>
+		</Layout>
+	</Slide>
+
+	<Slide>
+		<Layout>
+			<titlebar style="display:block;">
+				Testing Embedding of Videos in Presentation D-Padded Pause
+			</titlebar>
+			<mybody>
+				<video controls class="w-[68vw] h-[75vh] mx-auto my-auto">
+					<source src="cropped_2018-02-10_180-72_181-53_padded.mp4" type="video/mp4" />
+					<track kind="captions" label="german_captions" srclang="de" src="captions_2018-02-10_180-72_181-53_de.vtt"/>
+					<track kind="captions" label="english_captions" srclang="en" src="captions_2018-02-10_180-72_181-53_en.vtt"/>
+				</video>
+
+			</mybody>
+		</Layout>
+	</Slide>
+	
+	<Slide>
+		<Layout>
+			<titlebar style="display:block;">
+				Testing Embedding of Videos in Presentation E-3x2
+			</titlebar>
+			<mybody>
+				<div class="grid mx-auto my-auto" style="grid-template-columns: auto auto auto;">
+					<video controls class="w-[30vw] h-[38vh] mx-auto my-auto p-2">
+						<source src="cropped_2018-02-10_180-72_181-53_PreP8s9.mp4" type="video/mp4" />
+						<track kind="captions" label="english_captions" srclang="en" src="captions_pause.vtt"/>
+					</video>
+					<video controls class="w-[30vw] h-[38vh] mx-auto my-auto p-2">
+						<source src="cropped_2018-02-10_180-72_181-53_PreP5s6.mp4" type="video/mp4" />
+						<track kind="captions" label="english_captions" srclang="en" src="captions_pause.vtt"/>
+					</video>
+					<video controls class="w-[30vw] h-[38vh] mx-auto my-auto p-2">
+						<source src="cropped_2018-02-10_180-72_181-53_PreP2s3.mp4" type="video/mp4" />
+						<track kind="captions" label="english_captions" srclang="en" src="captions_pause.vtt"/>
+					</video>
+
+					<video controls class="w-[30vw] h-[38vh] mx-auto my-auto p-2">
+						<source src="cropped_2018-02-10_180-72_181-53_PostP2s3.mp4" type="video/mp4" />
+						<track kind="captions" label="english_captions" srclang="en" src="captions_pause.vtt"/>
+					</video>
+					<video controls class="w-[30vw] h-[38vh] mx-auto my-auto p-2">
+						<source src="cropped_2018-02-10_180-72_181-53_PostP5s6.mp4" type="video/mp4" />
+						<track kind="captions" label="english_captions" srclang="en" src="captions_pause.vtt"/>
+					</video>
+					<video controls class="w-[30vw] h-[38vh] mx-auto my-auto p-2">
+						<source src="cropped_2018-02-10_180-72_181-53_PostP8s9.mp4" type="video/mp4" />
+						<track kind="captions" label="english_captions" srclang="en" src="captions_pause.vtt"/>
+					</video>
+				</div>
+			</mybody>
+		</Layout>
+	</Slide>
+
+
 	<Slide>
 		<Layout>
 			<titlebar style="display:block;">
@@ -722,6 +875,9 @@
 			font-style: italic;
 			padding: 2px;
 			text-align: center;
-		} 
+		}
+		video{
+			width: 90vw;
+		}
 	</style>
 </Presentation>
