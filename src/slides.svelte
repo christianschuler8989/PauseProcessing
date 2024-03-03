@@ -91,158 +91,6 @@
 	<!-- Introduction ####################################################### -->
 	<script> newChapter("Introduction"); </script>
 
-	<!-- Video Testing
-		# Pause Snippets
-		cropped_2017-03-18_226-53_227-22.mp4
-		cropped_2017-04-01_124-74_125-49.mp4
-		cropped_2017-06-24_288-45_289-11.mp4
-		cropped_2017-08-26_291-48_292-23.mp4
-		cropped_2017-09-02_400-95_401-64.mp4
-
-		# Padded Pauses
-		cropped_2018-02-10_180-72_181-53_padded.mp4
-
-		# Same padded Pause Extracts
-		cropped_2018-02-10_180-72_181-53_PostP8s9.mp4
-		cropped_2018-02-10_180-72_181-53_PostP5s6.mp4
-		cropped_2018-02-10_180-72_181-53_PostP2s3.mp4
-		cropped_2018-02-10_180-72_181-53_PreP2s3.mp4
-		cropped_2018-02-10_180-72_181-53_PreP5s6.mp4
-		cropped_2018-02-10_180-72_181-53_PreP8s9.mp4
-
-	-->
-	<Slide>
-		<Layout>
-			<titlebar style="display:block;">
-				Testing Embedding of Videos in Presentation A-1x1
-			</titlebar>
-			<mybody>
-				<div class="grid mx-auto my-auto" style="grid-template-columns: auto;">
-					<video controls class="w-[68vw] h-[75vh] mx-auto my-auto">
-						<source src="cropped_2017-03-18_226-53_227-22.mp4" type="video/mp4" />
-						<track kind="captions" label="english_captions" srclang="en" src="captions_pause.vtt"/>
-					</video>
-
-					<!-- <div class="flex w-[22vw] mx-auto my-auto gap-[100px]">
-						subtitle position
-					</div> -->
-				</div>
-			</mybody>
-		</Layout>
-	</Slide>
-
-	<Slide>
-		<Layout>
-			<titlebar style="display:block;">
-				Testing Embedding of Videos in Presentation B-1x2
-			</titlebar>
-			<mybody>
-				<div class="grid mx-auto my-auto" style="grid-template-columns: auto auto;">
-					<video controls class="w-[48vw] mx-auto my-auto p-2">
-						<source src="cropped_2017-03-18_226-53_227-22.mp4" type="video/mp4" />
-						<track kind="captions" label="english_captions" srclang="en" src="captions_pause.vtt"/>
-					</video>
-					<video controls class="w-[48vw] mx-auto my-auto p-2">
-						<source src="cropped_2017-04-01_124-74_125-49.mp4" type="video/mp4" />
-						<track kind="captions" label="english_captions" srclang="en" src="captions_pause.vtt"/>
-					</video>
-				</div>
-				<!-- Alternative Code without using a Grid: -->
-				<!-- <video controls class="w-[48vw] mx-auto my-auto">
-					<source src="cropped_2017-03-18_226-53_227-22.mp4" type="video/mp4" />
-					<track kind="captions" label="english_captions" srclang="en" src="captions_pause.vtt"/>
-				</video>
-				<video controls class="w-[48vw] mx-auto my-auto">
-					<source src="cropped_2017-04-01_124-74_125-49.mp4" type="video/mp4" />
-					<track kind="captions" label="english_captions" srclang="en" src="captions_pause.vtt"/>
-				</video> -->
-			</mybody>
-		</Layout>
-	</Slide>
-
-	<Slide>
-		<Layout>
-			<titlebar style="display:block;">
-				Testing Embedding of Videos in Presentation C-2x2
-			</titlebar>
-			<mybody>
-				<div class="grid mx-auto my-auto" style="grid-template-columns: auto auto;">
-					<video controls class="w-[34vw] h-[38vh] mx-auto my-auto p-2">
-						<source src="cropped_2017-03-18_226-53_227-22.mp4" type="video/mp4" />
-						<track kind="captions" label="english_captions" srclang="en" src="captions_pause.vtt"/>
-					</video>
-					<video controls class="w-[34vw] h-[38vh] mx-auto my-auto p-2">
-						<source src="cropped_2017-04-01_124-74_125-49.mp4" type="video/mp4" />
-						<track kind="captions" label="english_captions" srclang="en" src="captions_pause.vtt"/>
-					</video>
-
-					<video controls class="w-[34vw] h-[38vh] mx-auto my-auto p-2">
-						<source src="cropped_2017-06-24_288-45_289-11.mp4" type="video/mp4" />
-						<track kind="captions" label="english_captions" srclang="en" src="captions_pause.vtt"/>
-					</video>
-					<video controls class="w-[34vw] h-[38vh] mx-auto my-auto p-2">
-						<source src="cropped_2017-08-26_291-48_292-23.mp4" type="video/mp4" />
-						<track kind="captions" label="english_captions" srclang="en" src="captions_pause.vtt"/>
-					</video>
-				</div>
-			</mybody>
-		</Layout>
-	</Slide>
-
-	<Slide>
-		<Layout>
-			<titlebar style="display:block;">
-				Testing Embedding of Videos in Presentation D-Padded Pause
-			</titlebar>
-			<mybody>
-				<video controls class="w-[68vw] h-[75vh] mx-auto my-auto">
-					<source src="cropped_2018-02-10_180-72_181-53_padded.mp4" type="video/mp4" />
-					<track kind="captions" label="german_captions" srclang="de" src="captions_2018-02-10_180-72_181-53_de.vtt"/>
-					<track kind="captions" label="english_captions" srclang="en" src="captions_2018-02-10_180-72_181-53_en.vtt"/>
-				</video>
-
-			</mybody>
-		</Layout>
-	</Slide>
-	
-	<Slide>
-		<Layout>
-			<titlebar style="display:block;">
-				Testing Embedding of Videos in Presentation E-3x2
-			</titlebar>
-			<mybody>
-				<div class="grid mx-auto my-auto" style="grid-template-columns: auto auto auto;">
-					<video controls class="w-[30vw] h-[38vh] mx-auto my-auto p-2">
-						<source src="cropped_2018-02-10_180-72_181-53_PreP8s9.mp4" type="video/mp4" />
-						<track kind="captions" label="english_captions" srclang="en" src="captions_pause.vtt"/>
-					</video>
-					<video controls class="w-[30vw] h-[38vh] mx-auto my-auto p-2">
-						<source src="cropped_2018-02-10_180-72_181-53_PreP5s6.mp4" type="video/mp4" />
-						<track kind="captions" label="english_captions" srclang="en" src="captions_pause.vtt"/>
-					</video>
-					<video controls class="w-[30vw] h-[38vh] mx-auto my-auto p-2">
-						<source src="cropped_2018-02-10_180-72_181-53_PreP2s3.mp4" type="video/mp4" />
-						<track kind="captions" label="english_captions" srclang="en" src="captions_pause.vtt"/>
-					</video>
-
-					<video controls class="w-[30vw] h-[38vh] mx-auto my-auto p-2">
-						<source src="cropped_2018-02-10_180-72_181-53_PostP2s3.mp4" type="video/mp4" />
-						<track kind="captions" label="english_captions" srclang="en" src="captions_pause.vtt"/>
-					</video>
-					<video controls class="w-[30vw] h-[38vh] mx-auto my-auto p-2">
-						<source src="cropped_2018-02-10_180-72_181-53_PostP5s6.mp4" type="video/mp4" />
-						<track kind="captions" label="english_captions" srclang="en" src="captions_pause.vtt"/>
-					</video>
-					<video controls class="w-[30vw] h-[38vh] mx-auto my-auto p-2">
-						<source src="cropped_2018-02-10_180-72_181-53_PostP8s9.mp4" type="video/mp4" />
-						<track kind="captions" label="english_captions" srclang="en" src="captions_pause.vtt"/>
-					</video>
-				</div>
-			</mybody>
-		</Layout>
-	</Slide>
-
-
 	<Slide>
 		<Layout>
 			<titlebar style="display:block;">
@@ -277,45 +125,53 @@
 						https://timobaumann.de/work/Main/HomePage
 					</div>
 					<!-- Images -->
-					<figure class="h-[60vh] w-[22vw] float-left mx-auto my-auto">
+					<figure class="h-[55vh] w-[20vw] float-left mx-auto my-auto">
 						<img src="Christian_Schuler_01_Lecturing.jpg" alt="christian" class="h-[40vh]">
 						<figcaption class="text-[2.3vh]">
-							About to finish his masters in computer science at University of Hamburg.<br>
-							Christian Schuler likes colors, languages and eats more pizza in one year than any of you in your lifetime!<br>
+							About to finish his masters in computer science at University of Hamburg.
+						</figcaption>
+						<figcaption class="text-[1.3vh]">
+							He likes colors, languages and eats more pizza in one year than any of you in your lifetime!
 						</figcaption>
 					</figure>
-					<figure class="h-[60vh] w-[22vw] float-left mx-auto my-auto">
+					<figure class="h-[55vh] w-[20vw] float-left mx-auto my-auto">
 						<img src="Shravan_Nayak_github.jpeg" alt="shravan" class="h-[40vh]">
 						<figcaption class="text-[2.3vh]">
-							Pursuing his research masters in computer science at Mila and the University of Montreal, supervised by Prof. Aishwarya Agrawal.<br>
-							His focus lies in developing vision language systems that transcend linguistic barriers and cater to diverse demographics. 
+							Pursuing his research masters in computer science at Mila and the University of Montreal, supervised by Prof. Aishwarya Agrawal.
+						</figcaption>
+						<figcaption class="text-[1.3vh]">
+							His focus lies in developing vision language systems that transcend linguistic barriers and cater to diverse demographics.
 						</figcaption>
 					</figure>
-					<figure class="h-[60vh] w-[22vw] float-left mx-auto my-auto">
+					<figure class="h-[55vh] w-[20vw] float-left mx-auto my-auto">
 						<img src="Debjoy_Saha_Googlescholar.jpeg" alt="debjoy" class="h-[40vh]">
 						<figcaption class="text-[2.3vh]">
-							B.Tech + M.Tech (Dual Degree) student at IIT Kharagpur, pursuing joint degrees in Electronics and Computer Science.<br>
+							B.Tech + M.Tech (Dual Degree) student at IIT Kharagpur, pursuing joint degrees in Electronics and Computer Science.
+						</figcaption>
+						<figcaption class="text-[1.3vh]">
 							Broadly, his research interests lie in machine learning for image, language and speech processing.
 						</figcaption>
 					</figure>
-					<figure class="h-[60vh] w-[22vw] float-left mx-auto my-auto">
+					<figure class="h-[55vh] w-[20vw] float-left mx-auto my-auto">
 						<img src="Timo_Baumann_01.jpg" alt="timo" class="h-[40vh]">
 						<figcaption class="text-[2.3vh]">
-							Professor in Artificial Intelligence and Natural Language Processing at the School for CS and Maths at OTH Regensburg.<br>
+							Professor in Artificial Intelligence and Natural Language Processing at the School for CS and Maths at OTH Regensburg.
+						</figcaption>
+						<figcaption class="text-[1.3vh]">
 							He researches spoken language, in particular in interactive and multi-modal scenarios, such as in spoken dialogue systems.
 						</figcaption>
 					</figure>
 					
-					<figure class="flex h-[12vh] w-[22vw] items-center justify-center mx-auto my-auto">
+					<figure class="flex h-[12vh] w-[20vw] items-center justify-center mx-auto my-auto">
 						<img src="UHH_Universität_Hamburg_Logo_mit_Schrift_2010_Farbe_CMYK.svg.png" alt="christian_hamburg" class="h-[10vh]">
 					</figure>
-					<figure class="flex h-[12vh] w-[22vw] items-center justify-center mx-auto my-auto">
+					<figure class="flex h-[12vh] w-[20vw] items-center justify-center mx-auto my-auto">
 						<img src="250px-Universite_de_Montreal_logo.svg.png" alt="shravan_montreal" class="h-[10vh]">
 					</figure>
-					<figure class="flex h-[12vh] w-[22vw] items-center justify-center mx-auto my-auto">
+					<figure class="flex h-[12vh] w-[20vw] items-center justify-center mx-auto my-auto">
 						<img src="IIT_Kharagpur_Logo.svg.png" alt="debjoy_kharagpur" class="h-[10vh]">
 					</figure>
-					<figure class="flex h-[12vh] w-[22vw] items-center justify-center mx-auto my-auto">
+					<figure class="flex h-[12vh] w-[20vw] items-center justify-center mx-auto my-auto">
 						<img src="Logo-OTH-Regensburg.png" alt="timo_regensburg" class="h-[10vh]">
 					</figure>
 
@@ -372,7 +228,79 @@
 			</mybody>
 		</Layout>
 		<Notes>
-			What is it, that we are doing?
+			What is it, that we are trying to do?
+		</Notes>
+	</Slide>
+
+	<Slide>
+		<Layout>
+			<titlebar style="display:block;">
+				Example Excerpt 1 - Question
+			</titlebar>
+
+			<mybody>
+				<div class="grid mx-auto my-auto" style="grid-template-columns: auto;">
+					<video controls class="w-[68vw] h-[75vh] mx-auto my-auto">
+						<source src="ESSV-02-padded_prior.mp4" type="video/mp4" />
+						<track kind="captions" label="english_captions" srclang="en" src="captions_pause.vtt"/>
+					</video>
+			
+					<!-- <div class="flex w-[22vw] mx-auto my-auto gap-[100px]">
+						subtitle position
+					</div> -->
+				</div>
+			</mybody>
+		</Layout>
+		<Notes>
+			Could you do it?
+		</Notes>
+	</Slide>
+
+	<Slide>
+		<Layout>
+			<titlebar style="display:block;">
+				Example Excerpt 1 - Pause
+			</titlebar>
+
+			<mybody>
+				<div class="grid mx-auto my-auto" style="grid-template-columns: auto;">
+					<video controls class="w-[68vw] h-[75vh] mx-auto my-auto" autoplay loop muted>
+						<source src="ESSV-02.mp4" type="video/mp4" />
+						<track kind="captions" label="english_captions" srclang="en" src="captions_pause.vtt"/>
+					</video>
+			
+					<!-- <div class="flex w-[22vw] mx-auto my-auto gap-[100px]">
+						subtitle position
+					</div> -->
+				</div>
+			</mybody>
+		</Layout>
+		<Notes>
+			Could you do it?
+		</Notes>
+	</Slide>
+
+	<Slide>
+		<Layout>
+			<titlebar style="display:block;">
+				Example Excerpt 1 - Response
+			</titlebar>
+
+			<mybody>
+				<div class="grid mx-auto my-auto" style="grid-template-columns: auto;">
+					<video controls class="w-[68vw] h-[75vh] mx-auto my-auto">
+						<source src="ESSV-02-padded_post.mp4" type="video/mp4" />
+						<track kind="captions" label="english_captions" srclang="en" src="captions_pause.vtt"/>
+					</video>
+			
+					<!-- <div class="flex w-[22vw] mx-auto my-auto gap-[100px]">
+						subtitle position
+					</div> -->
+				</div>
+			</mybody>
+		</Layout>
+		<Notes>
+			Could you do it?
 		</Notes>
 	</Slide>
 
@@ -689,18 +617,71 @@
 			</titlebar>
 
 			<mybody>
-				<figure class="h-[75vh] w-[95vw] float-left mx-auto my-auto">
-					<img src="construction-itsupport.png" alt="future_work" class="h-[55vh] mx-auto my-[3vh]">
-					<figcaption>
-						Bacon Ipsum Dolor Cheesecake.<br>
-						Pizza? You mean "yum-yum in my tum-tum"! :D
-					</figcaption>
-				</figure>
+				<div class="grid mx-auto my-auto" style="grid-template-columns: auto;">
+					<video controls class="w-[68vw] h-[75vh] mx-auto my-auto">
+						<source src="cropped_2017-08-26_291-48_292-23_essv.mp4" type="video/mp4" />
+						<track kind="captions" label="english_captions" srclang="en" src="captions_pause.vtt"/>
+					</video>
+
+					<!-- <div class="flex w-[22vw] mx-auto my-auto gap-[100px]">
+						subtitle position
+					</div> -->
+				</div>
 			</mybody>
 			
 		</Layout>
 		<Notes>
-			Future Work
+			Expand into time of question asking?
+		</Notes>
+	</Slide>
+
+	<Slide>
+		<Layout>
+			<titlebar style="display:block;">
+				Futuristic Future Work
+			</titlebar>
+
+			<mybody>
+				<div class="grid mx-auto my-auto" style="grid-template-columns: auto;">
+					<video controls class="w-[68vw] h-[75vh] mx-auto my-auto">
+						<source src="cropped_2017-08-26_264-51_265-68_essv.mp4" type="video/mp4" />
+						<track kind="captions" label="english_captions" srclang="en" src="captions_pause.vtt"/>
+					</video>
+
+					<!-- <div class="flex w-[22vw] mx-auto my-auto gap-[100px]">
+						subtitle position
+					</div> -->
+				</div>
+			</mybody>
+			
+		</Layout>
+		<Notes>
+			Future Work with a Wink: Can we even estimate the next question going to be asked?
+		</Notes>
+	</Slide>
+
+	<Slide>
+		<Layout>
+			<titlebar style="display:block;">
+				Futuristic Future Work
+			</titlebar>
+
+			<mybody>
+				<div class="grid mx-auto my-auto" style="grid-template-columns: auto;">
+					<video controls class="w-[68vw] h-[75vh] mx-auto my-auto">
+						<source src="cropped_2017-12-02_274-08_275-52_essv.mp4" type="video/mp4" />
+						<track kind="captions" label="english_captions" srclang="en" src="captions_pause.vtt"/>
+					</video>
+
+					<!-- <div class="flex w-[22vw] mx-auto my-auto gap-[100px]">
+						subtitle position
+					</div> -->
+				</div>
+			</mybody>
+			
+		</Layout>
+		<Notes>
+			Future Work with a Wink: Can we even estimate the next question going to be asked?
 		</Notes>
 	</Slide>
 
@@ -881,3 +862,41 @@
 		}
 	</style>
 </Presentation>
+
+
+<!--
+Merkel Video Snippets for ESSV Presentation
+
+	# Back and forth (Camera and Turn)
+ESSV-01.mp4 - cropped_2011-07-23_083-07_084-45.mp4
+
+	# Good examples
+ESSV-02.mp4 - cropped_2011-07-23_103-89_104-49_ESSV.mp4
+ESSV-03.mp4 - cropped_2013-01-19_073-98_074-52_ESSV.mp4
+ESSV-04.mp4 - cropped_2013-01-19_227-97_228-66_ESSV.mp4
+ESSV-05.mp4 - cropped_2014-03-22_173-58_174-18_ESSV.mp4
+ESSV-06.mp4 - cropped_2014-06-07_080-46_081-21_ESSV.mp4
+ESSV-07.mp4 - cropped_2014-06-07_017-73_018-63_ESSV.mp4
+
+	# Lala
+ESSV-08.mp4 - cropped_2014-05-31_028-47_029-25_ESSV.mp4
+
+	# Problematic
+ESSV-09.mp4 - cropped_2013-01-19_019-08_020-88_ESSV.mp4
+
+	# Merkel turns interviewer
+ESSV-10.mp4 - cropped_2014-05-03_068-01_068-85_ESSV.mp4
+
+	# Useless crap
+ESSV-11.mp4 - cropped_2017-08-19_024-18_024-75_ESSV.mp4
+ESSV-12.mp4 - cropped_2019-01-19_057-00_057-81_ESSV.mp4
+ESSV-13.mp4 - cropped_2019-01-02_257-91_259-41_ESSV.mp4
+
+	# Future Work: Expand into time of question asking?
+ESSV-14.mp4 - cropped_2017-08-26_291-48_292-23_ESSV.mp4
+
+	# Future Future Work: "Can we estimate the next question?" XD
+ESSV-15.mp4 - cropped_2017-08-26_264-51_265-68_ESSV.mp4
+ESSV-16.mp4 - cropped_2017-12-02_274-08_275-52_ESSV.mp4
+
+-->

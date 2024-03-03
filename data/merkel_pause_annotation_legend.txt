@@ -1,0 +1,15 @@
+m - Merkel
+n - No Merkel visible
+a - animation transition
+i - interviewer
+t - textlabel
+c - cut changing distance towards Merkel
+o - cut changing distance away from Merkel
+si - switch from Merkel to Interviewer
+sm - switch from Interviewer to Merkel
+b - both people in frame front of Merkel
+p - both people in frame front of Interviewer
+r - sign-language translator on the right side of screen
+l - sign-language translator on the left side of screen
+fi - fade-in (Merkel is visible at end of pause)
+fo - fade-out (Merkel is visible at begin of pause)
