@@ -53,7 +53,7 @@
 35th Konferenz Elektronische Sprachsignalverarbeitung / Conference on Electronic Speechsignal Processing
 
 * [ESSV Archive](https://www.essv.de/)
-The ESSV Archive contains the publications of the past years. You can browse and download the individual papers and citations.
+The ESSV Archive contains the publications of the past years.
 
 * [Code for Presentation Slides](https://github.com/christianschuler8989/PauseProcessing-Slides-ESSV) 
 This Repository, you are currently looking at (for linking from somewhere else).
