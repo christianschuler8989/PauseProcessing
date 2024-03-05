@@ -46,8 +46,8 @@
 # Pause Processing at ESSV 2024
 
 * Can We See Your Response Before You Speak? Exploring Linguistic Information Found In Inter-Utterance Pause 
- + [Slides](https://christianschuler8989.github.io/PauseProcessing-Slides-ESSV/#/slide-1) for presenting Pause Processing on the ESSV 2024.
- + [Paper (TODO)]() published as part of (TODO: ESSV 2024 Proceedings)
+  + [Slides](https://christianschuler8989.github.io/PauseProcessing-Slides-ESSV/#/slide-1) for presenting Pause Processing on the ESSV 2024.
+  + [Paper (TODO)]() published as part of (TODO: ESSV 2024 Proceedings)
 
 * [ESSV 2024](https://www.essv.de/essv2024/Main/HomePage)
 35th Konferenz Elektronische Sprachsignalverarbeitung / Conference on Electronic Speechsignal Processing
