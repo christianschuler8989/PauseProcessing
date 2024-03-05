@@ -215,12 +215,12 @@
 	<Slide>
 		<Layout>
 			<titlebar style="display:block;">
-				Problem / Motivation
+				Motivation
 			</titlebar>
 
 			<mybody>
 				<figure class="w-[90vw] float-left mx-auto my-auto">
-					<img src="PauseProcessingLargeImages-DataPausesMerkelSmall.png" alt="virtual" class="w-[75vw] mx-auto my-[3vh]">
+					<img src="PauseProcessingLargeImages-DataPausesMerkelSmallPredict.png" alt="virtual" class="w-[75vw] mx-auto my-[3vh]">
 					<figcaption>
 						Can we detect linguistic information hidden in the video sequence during a pause?
 					</figcaption>
@@ -235,7 +235,7 @@
 	<Slide>
 		<Layout>
 			<titlebar style="display:block;">
-				Example Excerpt 1 - Question
+				Excerpt - Question
 			</titlebar>
 
 			<mybody>
@@ -259,7 +259,7 @@
 	<Slide>
 		<Layout>
 			<titlebar style="display:block;">
-				Example Excerpt 1 - Pause
+				Excerpt - Pause
 			</titlebar>
 
 			<mybody>
@@ -283,7 +283,7 @@
 	<Slide>
 		<Layout>
 			<titlebar style="display:block;">
-				Example Excerpt 1 - Response
+				Excerpt - Response
 			</titlebar>
 
 			<mybody>
@@ -304,6 +304,25 @@
 		</Notes>
 	</Slide>
 
+	<Slide>
+		<Layout>
+			<titlebar style="display:block;">
+				Goal
+			</titlebar>
+
+			<mybody>
+				<figure class="w-[90vw] float-left mx-auto my-auto">
+					<img src="PauseProcessingLargeImages-DataPausesMerkelSmall.png" alt="virtual" class="w-[75vw] mx-auto my-[3vh]">
+					<figcaption>
+						Can we detect linguistic information hidden in the video sequence during a pause?
+					</figcaption>
+				</figure>
+			</mybody>
+		</Layout>
+		<Notes>
+			What is it, that we are trying to do?
+		</Notes>
+	</Slide>
 
 	<!-- Data ####################################################### --> 
 	<script>newChapter("Data");</script>
@@ -432,24 +451,65 @@
 	<Slide>
 		<Layout>
 			<titlebar style="display:block;">
-				Data for Annotation Scheme
+				Data for Annotation - Naive
 			</titlebar>
 
 			<mybody>
 				<figure class="h-[75vh] w-[95vw] float-left mx-auto my-auto">
-					<img src="PauseProcessing-AnnotationSetup.png" alt="annotation_setup" class="h-[65vh] mx-auto my-[1vh]">
+					<img src="PauseProcessing-AnnotationSetupNaive.png" alt="annotation_setup" class="h-[65vh] mx-auto my-[1vh]">
 					<figcaption>
-						Data preparation for annotation task.
+						Single image shortly prior and after pause.
 					</figcaption>
 				</figure>
 			</mybody>
 			
 		</Layout>
 		<Notes>
-			Data preparation for annotation task.
+			By looking at the images right before and after the pause, we now know who is visible at these times.
 		</Notes>
 	</Slide>
 
+	<Slide>
+		<Layout>
+			<titlebar style="display:block;">
+				Data for Annotation - Optimistic
+			</titlebar>
+
+			<mybody>
+				<figure class="h-[75vh] w-[95vw] float-left mx-auto my-auto">
+					<img src="PauseProcessing-AnnotationSetupOptimist.png" alt="annotation_setup" class="h-[65vh] mx-auto my-[1vh]">
+					<figcaption>
+						Short video prior and after pause.
+					</figcaption>
+				</figure>
+			</mybody>
+			
+		</Layout>
+		<Notes>
+			Taking short video sequences instead, we are now able to tell, who is the one speaking at these times.
+		</Notes>
+	</Slide>
+	
+	<Slide>
+		<Layout>
+			<titlebar style="display:block;">
+				Data for Annotation - Necessary
+			</titlebar>
+
+			<mybody>
+				<figure class="h-[75vh] w-[95vw] float-left mx-auto my-auto">
+					<img src="PauseProcessing-AnnotationSetup.png" alt="annotation_setup" class="h-[65vh] mx-auto my-[1vh]">
+					<figcaption>
+						Short videos every few seconds from all around the pause.
+					</figcaption>
+				</figure>
+			</mybody>
+			
+		</Layout>
+		<Notes>
+			This provides a more comprehensive overview of who is speaking and who is visible at what times- resulting in a better understanding of the scene's context in which the pause is located.
+		</Notes>
+	</Slide>
 
 
 	<!-- Methodology ####################################################### -->
@@ -619,7 +679,7 @@
 			<mybody>
 				<div class="grid mx-auto my-auto" style="grid-template-columns: auto;">
 					<video controls class="w-[68vw] h-[75vh] mx-auto my-auto">
-						<source src="cropped_2017-08-26_291-48_292-23_essv.mp4" type="video/mp4" />
+						<source src="cropped_2017-08-26_291-48_292-23.mp4" type="video/mp4" />
 						<track kind="captions" label="english_captions" srclang="en" src="captions_pause.vtt"/>
 					</video>
 
@@ -644,7 +704,7 @@
 			<mybody>
 				<div class="grid mx-auto my-auto" style="grid-template-columns: auto;">
 					<video controls class="w-[68vw] h-[75vh] mx-auto my-auto">
-						<source src="cropped_2017-08-26_264-51_265-68_essv.mp4" type="video/mp4" />
+						<source src="cropped_2017-08-26_264-51_265-68_ESSV.mp4" type="video/mp4" />
 						<track kind="captions" label="english_captions" srclang="en" src="captions_pause.vtt"/>
 					</video>
 
@@ -669,7 +729,7 @@
 			<mybody>
 				<div class="grid mx-auto my-auto" style="grid-template-columns: auto;">
 					<video controls class="w-[68vw] h-[75vh] mx-auto my-auto">
-						<source src="cropped_2017-12-02_274-08_275-52_essv.mp4" type="video/mp4" />
+						<source src="cropped_2017-12-02_274-08_275-52_ESSV.mp4" type="video/mp4" />
 						<track kind="captions" label="english_captions" srclang="en" src="captions_pause.vtt"/>
 					</video>
 

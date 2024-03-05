@@ -22,7 +22,7 @@
     <img src="https://github.com/christianschuler8989/PauseProcessing-Slides-ESSV/blob/main/public/logo.png" alt="Logo" width="200" height="200">
   </a>
 
-  <h3 align="center">Exploring the pauses in-between utterences.</h3>
+  <h3 align="center">Exploring the Pauses in-between Utterences.</h3>
   
   Preprocessing, Annotating and Experimenting Video Sequences of Pauses in-between Speech Segments
 <!--
@@ -41,113 +41,24 @@
 
 
 
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
-
 --- 
 
-# Installation
+# Pause Processing at ESSV 2024
 
-* Clone this repository
-```
-git clone git@github.com:christianschuler8989/PauseProcessing.git
-```
+* Can We See Your Response Before You Speak? Exploring Linguistic Information Found In Inter-Utterance Pause 
+ + [Slides](https://christianschuler8989.github.io/PauseProcessing-Slides-ESSV/#/slide-1) for presenting Pause Processing on the ESSV 2024.
+ + [Paper (TODO)]() published as part of (TODO: ESSV 2024 Proceedings)
 
-* Setup virtual environments and install the requirements
-```
-pip install -r requirements.txt
-``` 
+* [ESSV 2024](https://www.essv.de/essv2024/Main/HomePage)
+35th Konferenz Elektronische Sprachsignalverarbeitung / Conference on Electronic Speechsignal Processing
 
+* [ESSV Archive](https://www.essv.de/)
+The ESSV Archive contains the publications of the past years. You can browse and download the individual papers and citations.
 
-
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
-
---- 
-
-# Data Annotation Setup
-
-## Preparing Video Material
-
-### Identifying pauses
-
-### Extract snippets (with and without padding)
-
-### Extract items for annotation
-
-### Potato (online/local) for easy workflow
-
-#### Data preperation
-```console
-cd YOUR_PATH_HERE/PauseProcessing/potato/speaker_changes/data/
-python potato_data_reader.py
-```
-
-#### Running a Potato Annotation Study
-```console
-python3 -m venv venvPotato
-source venvPotato/bin/activate
-pip3 install potato-annotation
-cd YOUR_PATH_HERE/PauseProcessing/potato/
-
-potato start ./speaker_changes/configs/postP_content.yaml
-# → Annotation available in browser via localhost:8008
-
-potato start ./speaker_changes/configs/preP_content.yaml
-# → Annotation available in browser via localhost:8001
-```
-
-#### Processing annotation data
-```console
-cd YOUR_PATH_HERE/PauseProcessing/potato/speaker_changes/data/
-python potato_annotation_reader.py
-```
+* [Code for Presentation Slides](https://github.com/christianschuler8989/PauseProcessing-Slides-ESSV) 
+This Repository, you are currently looking at (for linking from somewhere else).
 
 
-
-
-
-
-
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
-
---- 
-
-# Embeddings Creation
-
-## Sentence Embeddings from Text
-* Notebook: main_sent2vec.ipynb
-
-### Sources
-* [SBERT Docs for Computing Sentence Embeddings](https://www.sbert.net/examples/applications/computing-embeddings/README.html)
-* [Cross English & German RoBERTa for Sentence Embeddings](https://huggingface.co/T-Systems-onsite/cross-en-de-roberta-sentence-transformer)
-
-### Installation & Usage
-* Create a conda environment
-```console
-conda create --name envRoBERTa
-```
-
-* Install the required packages
-```console
-conda install -n envRoBERTa conda-forge sentence-transformers protobuf ipywidgets
-```
-
-* Activate the conda environment and run the notebook cells
-```console
-source activate envRoBERTa
-cd YOUR_PATH_HERE/PauseProcessing/source/main_sent2vec.ipynb
-```
-
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
-
---- 
-
-# Training and Evaluation
-
-
-
-
-
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 --- 
 
@@ -156,10 +67,10 @@ cd YOUR_PATH_HERE/PauseProcessing/source/main_sent2vec.ipynb
 
 Helpful resources we would like to give credit to:
 
-* [Potato: the POrtable Text Annotation TOol](https://github.com/davidjurgens/potato?tab=readme-ov-file)
-* [py-webrtcvad, a python interface to the WebRTC Voice Activity Detector (VAD)](https://github.com/wiseman/py-webrtcvad)
-* [Best-README-Template](https://github.com/othneildrew/Best-README-Template) 
 * [AwesomeAnranSlides for Online Presentation Slides](https://github.com/AnranW/AwesomeAnranSlides)
+* [Best-README-Template](https://github.com/othneildrew/Best-README-Template) 
+
+
 
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
