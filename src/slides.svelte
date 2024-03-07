@@ -76,7 +76,7 @@
 	</Slide>
 
 	<!-- TOC -->
-	<Slide>
+	<!-- <Slide>
 		<script>
 			toc=true; // decides whether to generate table of content page
 		</script>
@@ -86,7 +86,7 @@
 				<chpnames class="text-left"> </chpnames>
 			</toc>
 		</Layout>
-	</Slide>
+	</Slide> -->
 
 	<!-- Introduction ####################################################### -->
 	<script> newChapter("Introduction"); </script>
@@ -131,7 +131,7 @@
 							Master student in computer science at University of Hamburg.
 						</figcaption>
 						<figcaption class="text-[1.3vh]">
-							With a passion for languages and colors, he aims to do a PhD. Additionally, he eats more pizza in one year than any of you in your lifetime!
+							With a passion for languages and colors, he aims to do a PhD. <br>Additionally, he eats more pizza in one year than any of you in your lifetime!
 						</figcaption>
 					</figure>
 					<figure class="h-[55vh] w-[20vw] float-left mx-auto my-auto">
@@ -225,9 +225,9 @@
 						<track kind="captions" label="english_captions" srclang="en" src="captions_motivation_speech.vtt" default/>
 					</video>
 			
-					<!-- <div class="flex w-[22vw] mx-auto my-auto gap-[100px]">
-						subtitle position
-					</div> -->
+					<div class="flex w-[95vw] text-[2vh] mx-auto my-auto items-center justify-center">
+						Someone talking - scene from the show Westworld (2016).
+					</div>
 				</div>
 			</mybody>
 		</Layout>
@@ -249,9 +249,9 @@
 						<track kind="captions" label="english_captions" srclang="en" src="captions_motivation_pause_empty.vtt" default/>
 					</video>
 			
-					<!-- <div class="flex w-[22vw] mx-auto my-auto gap-[100px]">
-						subtitle position
-					</div> -->
+					<div class="flex w-[95vw] text-[2vh] mx-auto my-auto items-center justify-center">
+						Someone pausing - scene from the show Westworld (2016).
+					</div>
 				</div>
 			</mybody>
 		</Layout>
@@ -273,9 +273,9 @@
 						<track kind="captions" label="english_captions" srclang="en" src="captions_motivation_pause_full.vtt" default/>
 					</video>
 			
-					<!-- <div class="flex w-[22vw] mx-auto my-auto gap-[100px]">
-						subtitle position
-					</div> -->
+					<div class="flex w-[95vw] text-[2vh] mx-auto my-auto items-center justify-center">
+						Slowed down - scene from the show Westworld (2016).
+					</div>
 				</div>
 			</mybody>
 		</Layout>
@@ -287,95 +287,32 @@
 	<Slide>
 		<Layout>
 			<titlebar style="display:block;">
-				Motivation - What to look for?
+				Hypothesis
 			</titlebar>
 
 			<mybody>
-				<figure class="w-[90vw] float-left mx-auto my-auto">
-					<img src="PauseProcessingLargeImages-DataPausesMerkelSmallPredict.png" alt="virtual" class="w-[75vw] mx-auto my-[3vh]">
-					<figcaption>
-						Can we detect linguistic information hidden in the video sequence during a pause?
-					</figcaption>
-				</figure>
+				<div class="grid mx-auto my-auto" style="grid-template-columns: auto; p-5">
+					<div class="flex w-[95vw] text-[4vh] items-center justify-center gap-[5px] p-2">
+						We hypothesise that pausing behaviour in dialogue holds information that is helpful to predict subsequent interactional behaviour.
+						<br>
+						<br>
+						The content of one's upcoming utterance might be reflected in the face while pondering and constructing a response.
+					</div>
+					<br>
+					<figure class="w-80vw] float-left mx-auto my-auto">
+						<img src="PauseProcessingLargeImages-DataPausesMerkelSmallPredict.png" alt="virtual" class="w-[75vw] h-[25vw] mx-auto my-[1vh]">
+						<figcaption class="text-[3vh]">
+							Can we detect linguistic information hidden in the video sequence during a pause?
+						</figcaption>
+					</figure>
+				</div>
 			</mybody>
 		</Layout>
 		<Notes>
 			What is it, that we are trying to do / to find?
 		</Notes>
 	</Slide>
-
-	<Slide>
-		<Layout>
-			<titlebar style="display:block;">
-				Excerpt - Question
-			</titlebar>
-
-			<mybody>
-				<div class="grid mx-auto my-auto" style="grid-template-columns: auto;">
-					<video controls class="w-[68vw] h-[75vh] mx-auto my-auto">
-						<source src="ESSV-02-padded_prior.mp4" type="video/mp4" />
-						<track kind="captions" label="english_captions" srclang="en" src="captions_pause.vtt"/>
-					</video>
-			
-					<!-- <div class="flex w-[22vw] mx-auto my-auto gap-[100px]">
-						subtitle position
-					</div> -->
-				</div>
-			</mybody>
-		</Layout>
-		<Notes>
-			Could you do it?
-		</Notes>
-	</Slide>
-
-	<Slide>
-		<Layout>
-			<titlebar style="display:block;">
-				Excerpt - Pause
-			</titlebar>
-
-			<mybody>
-				<div class="grid mx-auto my-auto" style="grid-template-columns: auto;">
-					<video controls class="w-[68vw] h-[75vh] mx-auto my-auto" autoplay loop muted>
-						<source src="ESSV-02.mp4" type="video/mp4" />
-						<track kind="captions" label="english_captions" srclang="en" src="captions_pause.vtt"/>
-					</video>
-			
-					<!-- <div class="flex w-[22vw] mx-auto my-auto gap-[100px]">
-						subtitle position
-					</div> -->
-				</div>
-			</mybody>
-		</Layout>
-		<Notes>
-			Could you do it?
-		</Notes>
-	</Slide>
-
-	<Slide>
-		<Layout>
-			<titlebar style="display:block;">
-				Excerpt - Response
-			</titlebar>
-
-			<mybody>
-				<div class="grid mx-auto my-auto" style="grid-template-columns: auto;">
-					<video controls class="w-[68vw] h-[75vh] mx-auto my-auto">
-						<source src="ESSV-02-padded_post.mp4" type="video/mp4" />
-						<track kind="captions" label="english_captions" srclang="en" src="captions_pause.vtt"/>
-					</video>
-			
-					<!-- <div class="flex w-[22vw] mx-auto my-auto gap-[100px]">
-						subtitle position
-					</div> -->
-				</div>
-			</mybody>
-		</Layout>
-		<Notes>
-			Could you do it?
-		</Notes>
-	</Slide>
-
+<!-- 
 	<Slide>
 		<Layout>
 			<titlebar style="display:block;">
@@ -394,7 +331,109 @@
 		<Notes>
 			What is it, that we are trying to do?
 		</Notes>
+	</Slide> -->
+
+
+	<!-- Methodology ####################################################### -->
+	<script>newChapter("Methodology & Experiment");</script>
+	<Slide>
+		<Layout>
+			<titlebar style="display:block;">
+				Methodology
+			</titlebar>
+
+			<mybody>
+				<figure class="h-[75vh] w-[95vw] float-left mx-auto my-auto">
+					<img src="PauseProcessing-DataPauses.png" alt="virtual" class="w-[75vw] mx-auto my-[3vh]">
+					<figcaption>
+						Overview of our experiment setup.
+					</figcaption>
+				</figure>
+			</mybody>
+			
+		</Layout>
+		<Notes>
+			Genral overview of our experiment setup for first word prediction and discriminator training.
+		</Notes>
 	</Slide>
+
+	<Slide>
+		<Layout>
+			<titlebar style="display:block;">
+				Methodology - What is inside of a Video?
+			</titlebar>
+
+			<mybody>
+				<figure class="h-[75vh] w-[95vw] float-left mx-auto my-auto">
+					<img src="PauseProcessing-ExperimentSetupVideo.png" alt="virtual" class="w-[85vw] mx-auto my-[3vh]">
+					<figcaption>
+						Video processing of pause contents.
+					</figcaption>
+				</figure>
+			</mybody>
+			
+		</Layout>
+		<Notes>
+			What we did to the video data of each pause we investigated.
+		</Notes>
+	</Slide>
+
+	<Slide>
+		<Layout>
+			<titlebar style="display:block;">
+				Methodology - Two Approaches
+			</titlebar>
+
+			<mybody>
+				<figure class="h-[75vh] w-[95vw] float-left mx-auto my-auto">
+					<img src="PauseProcessing-ExperimentSetupText.png" alt="virtual" class="w-[85vw] mx-auto my-[3vh]">
+					<figcaption>
+						Predicting the first word versus matching pairs of pause and response.
+					</figcaption>
+				</figure>
+			</mybody>
+			
+		</Layout>
+		<Notes>
+			We assess our hypothesis with two kinds of experiments: <br> <br>
+			1. We train a classifier to predict the first word of the utterance based on a representation
+			of the pause video. If this model outperforms the unigram perplexity, there must be
+			information in the pause.<br> <br>
+			2. We design a discriminator that estimates whether a pause video and utterance form a pair
+			or not; we train this discriminator using contrastive learning. If this model is able to predict
+			pairings with better-than-random performance, there must be information in the pause.
+			
+		</Notes>
+	</Slide>
+
+
+
+
+
+	<!-- Experiment #######################################################
+	<script>newChapter("Experiment");</script>
+	<Slide>
+		<Layout>
+			<titlebar style="display:block;">
+				Experiment
+			</titlebar>
+
+			<mybody>
+				<figure class="h-[75vh] w-[95vw] float-left mx-auto my-auto">
+					<img src="construction-itsupport.png" alt="experiment" class="h-[55vh] mx-auto my-[3vh]">
+					<figcaption>
+						Bacon Ipsum Dolor Cheesecake.<br>
+						Pizza? You mean "yum-yum in my tum-tum"! :D
+					</figcaption>
+				</figure>
+			</mybody>
+			
+		</Layout>
+		<Notes>
+			Experiment
+		</Notes>
+	</Slide> -->
+
 
 	<!-- Data ####################################################### --> 
 	<script>newChapter("Data");</script>
@@ -405,14 +444,25 @@
 			</titlebar>
 
 			<mybody>
-				<figure class="h-[27vh] w-[95vw] float-left mx-auto my-auto">
-					<a href="https://github.com/deeplsd/Merkel-Podcast-Corpus" target="_blank" rel="noopener noreferrer">
-						<img src="merkel_podcast_corpus_title.jpg" alt="merkel_podcast_corpus" class="w-[95vw] mx-auto my-[1vh]">
-					</a>
-					<figcaption>
-						The corpus is split roughly equally between (semi-)prepared speeches and interview dialogues.
-					</figcaption>
-				</figure>
+
+				<div class="grid h-[75vh]" style="grid-template-columns: auto; p-2">
+					<figure class="h-[38vh] w-[95vw] float-left mx-auto my-auto">
+						<a href="https://github.com/deeplsd/Merkel-Podcast-Corpus" target="_blank" rel="noopener noreferrer">
+							<img src="merkel_podcast_corpus_title.jpg" alt="merkel_podcast_corpus" class="w-[95vw] mx-auto my-[1vh]">
+						</a>
+						<figcaption>
+							The corpus is split roughly equally between (semi-)prepared speeches and interview dialogues.<br>
+							630 videos totalling 48.0 hours of which 2.8 hours are short silences.
+						</figcaption>
+					</figure>
+	
+					<figure class="h-[30vh] w-[95vw] float-left mx-auto my-auto">
+						<img src="PauseProcessingLargeImages-DataPausesMerkel.png" alt="data_quality" class="w-[95vw] mx-auto my-[1vh]">
+						<figcaption>
+							Data example of a pause sequence and surrounding video sequences.
+						</figcaption>
+					</figure>
+				</div>
 			</mybody>
 			
 		</Layout>
@@ -499,7 +549,7 @@
 		</Notes>
 	</Slide>
 
-	<Slide>
+	<!-- <Slide>
 		<Layout>
 			<titlebar style="display:block;">
 				Data Quality for Pause Processing
@@ -518,7 +568,7 @@
 		<Notes>
 			Data example of a pause sequence and surrounding video sequences.
 		</Notes>
-	</Slide>
+	</Slide> -->
 
 	<Slide>
 		<Layout>
@@ -565,6 +615,29 @@
 	<Slide>
 		<Layout>
 			<titlebar style="display:block;">
+				Data for Annotation - Surprises
+			</titlebar>
+			<mybody>
+				<div class="grid mx-auto my-auto" style="grid-template-columns: auto;">
+					<video controls class="w-[68vw] h-[75vh] mx-auto my-auto">
+						<source src="ESSV-01-padded.mp4" type="video/mp4" /> <!-- cropped_2011-07-23_083-07_084-45.mp4 -->
+						<track kind="captions" label="english_captions" srclang="en" src="captions_pause.vtt"/>
+					</video>
+			
+					<!-- <div class="flex w-[22vw] mx-auto my-auto gap-[100px]">
+						subtitle position
+					</div> -->
+				</div>
+			</mybody>
+		</Layout>
+		<Notes>
+			Taking short video sequences instead, we are now able to tell, who is the one speaking at these times.
+		</Notes>
+	</Slide>
+
+	<Slide>
+		<Layout>
+			<titlebar style="display:block;">
 				Data for Annotation - Necessary
 			</titlebar>
 
@@ -584,124 +657,7 @@
 	</Slide>
 
 
-	<!-- Methodology ####################################################### -->
-	<script>newChapter("Methodology & Experiment");</script>
-	<Slide>
-		<Layout>
-			<titlebar style="display:block;">
-				Methodology
-			</titlebar>
 
-			<mybody>
-				<figure class="h-[75vh] w-[95vw] float-left mx-auto my-auto">
-					<img src="PauseProcessing-DataPauses.png" alt="virtual" class="w-[85vw] mx-auto my-[3vh]">
-					<figcaption>
-						Overview of our experiment setup.
-					</figcaption>
-				</figure>
-			</mybody>
-			
-		</Layout>
-		<Notes>
-			Genral overview of our experiment setup for first word prediction and discriminator training.
-		</Notes>
-	</Slide>
-
-	<Slide>
-		<Layout>
-			<titlebar style="display:block;">
-				Methodology - Video-centered
-			</titlebar>
-
-			<mybody>
-				<figure class="h-[75vh] w-[95vw] float-left mx-auto my-auto">
-					<img src="PauseProcessing-ExperimentSetupVideo.png" alt="virtual" class="w-[85vw] mx-auto my-[3vh]">
-					<figcaption>
-						Video processing of pause contents.
-					</figcaption>
-				</figure>
-			</mybody>
-			
-		</Layout>
-		<Notes>
-			What we did to the video data of each pause we investigated.
-		</Notes>
-	</Slide>
-
-	<Slide>
-		<Layout>
-			<titlebar style="display:block;">
-				Methodology - Text-centered
-			</titlebar>
-
-			<mybody>
-				<figure class="h-[75vh] w-[95vw] float-left mx-auto my-auto">
-					<img src="PauseProcessing-ExperimentSetupText.png" alt="virtual" class="w-[85vw] mx-auto my-[3vh]">
-					<figcaption>
-						Predicting the first word.
-					</figcaption>
-				</figure>
-			</mybody>
-			
-		</Layout>
-		<Notes>
-			We assess our hypothesis with two kinds of experiments: <br> <br>
-			1. We train a classifier to predict the first word of the utterance based on a representation
-			of the pause video. If this model outperforms the unigram perplexity, there must be
-			information in the pause.<br> <br>
-			2. We design a discriminator that estimates whether a pause video and utterance form a pair
-			or not; we train this discriminator using contrastive learning. If this model is able to predict
-			pairings with better-than-random performance, there must be information in the pause.
-			
-		</Notes>
-	</Slide>
-
-	<Slide>
-		<Layout>
-			<titlebar style="display:block;">
-				Methodology - Text-centered
-			</titlebar>
-
-			<mybody>
-				<figure class="h-[75vh] w-[95vw] float-left mx-auto my-auto">
-					<img src="PauseProcessing-ExperimentSetupVideo.png" alt="virtual" class="w-[85vw] mx-auto my-[3vh]">
-					<figcaption>
-						Pairing pauses with following responses.
-					</figcaption>
-				</figure>
-			</mybody>
-			
-		</Layout>
-		<Notes>
-			
-		</Notes>
-	</Slide>
-
-
-
-	<!-- Experiment #######################################################
-	<script>newChapter("Experiment");</script>
-	<Slide>
-		<Layout>
-			<titlebar style="display:block;">
-				Experiment
-			</titlebar>
-
-			<mybody>
-				<figure class="h-[75vh] w-[95vw] float-left mx-auto my-auto">
-					<img src="construction-itsupport.png" alt="experiment" class="h-[55vh] mx-auto my-[3vh]">
-					<figcaption>
-						Bacon Ipsum Dolor Cheesecake.<br>
-						Pizza? You mean "yum-yum in my tum-tum"! :D
-					</figcaption>
-				</figure>
-			</mybody>
-			
-		</Layout>
-		<Notes>
-			Experiment
-		</Notes>
-	</Slide> -->
 
 
 	<!-- Results & Discussion ####################################################### -->
@@ -709,7 +665,7 @@
 	<Slide>
 		<Layout>
 			<titlebar style="display:block;">
-				Results
+				Results & Discussion
 			</titlebar>
 
 			<mybody>
@@ -763,7 +719,7 @@
 		</Notes>
 	</Slide>
 
-	<Slide>
+	<!-- <Slide>
 		<Layout>
 			<titlebar style="display:block;">
 				Discussion
@@ -783,7 +739,7 @@
 		<Notes>
 			Discussion
 		</Notes>
-	</Slide>
+	</Slide> -->
 
 
 	<!-- Conclusions & Future Work ####################################################### -->
@@ -813,13 +769,13 @@
 	<Slide>
 		<Layout>
 			<titlebar style="display:block;">
-				Future Work
+				Future Work - Starting Ealier
 			</titlebar>
 
 			<mybody>
 				<div class="grid mx-auto my-auto" style="grid-template-columns: auto;">
 					<video controls class="w-[68vw] h-[75vh] mx-auto my-auto">
-						<source src="cropped_2017-08-26_291-48_292-23.mp4" type="video/mp4" />
+						<source src="ESSV-14-padded.mp4" type="video/mp4" />
 						<track kind="captions" label="english_captions" srclang="en" src="captions_pause.vtt"/>
 					</video>
 
@@ -835,55 +791,79 @@
 		</Notes>
 	</Slide>
 
+
 	<Slide>
 		<Layout>
 			<titlebar style="display:block;">
-				Futuristic Future Work
+				Future Work - What about Humans?
 			</titlebar>
 
 			<mybody>
 				<div class="grid mx-auto my-auto" style="grid-template-columns: auto;">
 					<video controls class="w-[68vw] h-[75vh] mx-auto my-auto">
-						<source src="cropped_2017-08-26_264-51_265-68_ESSV.mp4" type="video/mp4" />
+						<source src="ESSV-02-padded_prior.mp4" type="video/mp4" />
 						<track kind="captions" label="english_captions" srclang="en" src="captions_pause.vtt"/>
 					</video>
-
+			
 					<!-- <div class="flex w-[22vw] mx-auto my-auto gap-[100px]">
 						subtitle position
 					</div> -->
 				</div>
 			</mybody>
-			
 		</Layout>
 		<Notes>
-			Future Work with a Wink: Can we even estimate the next question going to be asked?
+			Could you do it?
 		</Notes>
 	</Slide>
 
 	<Slide>
 		<Layout>
 			<titlebar style="display:block;">
-				Futuristic Future Work
+				Future Work - Can you predict her Response?
 			</titlebar>
 
 			<mybody>
 				<div class="grid mx-auto my-auto" style="grid-template-columns: auto;">
-					<video controls class="w-[68vw] h-[75vh] mx-auto my-auto">
-						<source src="cropped_2017-12-02_274-08_275-52_ESSV.mp4" type="video/mp4" />
+					<video controls class="w-[68vw] h-[75vh] mx-auto my-auto" autoplay loop muted>
+						<source src="ESSV-02.mp4" type="video/mp4" />
 						<track kind="captions" label="english_captions" srclang="en" src="captions_pause.vtt"/>
 					</video>
-
+			
 					<!-- <div class="flex w-[22vw] mx-auto my-auto gap-[100px]">
 						subtitle position
 					</div> -->
 				</div>
 			</mybody>
-			
 		</Layout>
 		<Notes>
-			Future Work with a Wink: Can we even estimate the next question going to be asked?
+			Could you do it?
 		</Notes>
 	</Slide>
+
+	<Slide>
+		<Layout>
+			<titlebar style="display:block;">
+				Future Work - How close was your Guess?
+			</titlebar>
+
+			<mybody>
+				<div class="grid mx-auto my-auto" style="grid-template-columns: auto;">
+					<video controls class="w-[68vw] h-[75vh] mx-auto my-auto">
+						<source src="ESSV-02-padded_post.mp4" type="video/mp4" />
+						<track kind="captions" label="english_captions" srclang="en" src="captions_pause.vtt"/>
+					</video>
+			
+					<!-- <div class="flex w-[22vw] mx-auto my-auto gap-[100px]">
+						subtitle position
+					</div> -->
+				</div>
+			</mybody>
+		</Layout>
+		<Notes>
+			Could you do it?
+		</Notes>
+	</Slide>
+
 
 
 	<!-- Appendix ####################################################### -->
@@ -1210,10 +1190,61 @@
 			
 		</Layout>
 		<Notes>
-			References
+			Annotation Label Legend
 		</Notes>
 	</Slide>
 	
+
+	<Slide>
+		<Layout>
+			<titlebar style="display:block;">
+				Future Work - With a Wink I
+			</titlebar>
+
+			<mybody>
+				<div class="grid mx-auto my-auto" style="grid-template-columns: auto;">
+					<video controls class="w-[68vw] h-[75vh] mx-auto my-auto">
+						<source src="cropped_2017-08-26_264-51_265-68_ESSV.mp4" type="video/mp4" />
+						<track kind="captions" label="english_captions" srclang="en" src="captions_pause.vtt"/>
+					</video>
+
+					<!-- <div class="flex w-[22vw] mx-auto my-auto gap-[100px]">
+						subtitle position
+					</div> -->
+				</div>
+			</mybody>
+			
+		</Layout>
+		<Notes>
+			Future Work with a Wink: Can we even estimate the next question going to be asked?
+		</Notes>
+	</Slide>
+
+	<Slide>
+		<Layout>
+			<titlebar style="display:block;">
+				Future Work - With a Wink II
+			</titlebar>
+
+			<mybody>
+				<div class="grid mx-auto my-auto" style="grid-template-columns: auto;">
+					<video controls class="w-[68vw] h-[75vh] mx-auto my-auto">
+						<source src="cropped_2017-12-02_274-08_275-52_ESSV.mp4" type="video/mp4" />
+						<track kind="captions" label="english_captions" srclang="en" src="captions_pause.vtt"/>
+					</video>
+
+					<!-- <div class="flex w-[22vw] mx-auto my-auto gap-[100px]">
+						subtitle position
+					</div> -->
+				</div>
+			</mybody>
+			
+		</Layout>
+		<Notes>
+			Future Work with a Wink: Can we even estimate the next question going to be asked?
+		</Notes>
+	</Slide>
+
 
 
 	<!-- to mimic the latex template  -->
