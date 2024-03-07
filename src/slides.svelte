@@ -585,7 +585,7 @@
 
 
 	<!-- Methodology ####################################################### -->
-	<script>newChapter("Methodology");</script>
+	<script>newChapter("Methodology & Experiment");</script>
 	<Slide>
 		<Layout>
 			<titlebar style="display:block;">
@@ -631,12 +631,12 @@
 	<Slide>
 		<Layout>
 			<titlebar style="display:block;">
-				Methodology - Word-centered
+				Methodology - Text-centered
 			</titlebar>
 
 			<mybody>
 				<figure class="h-[75vh] w-[95vw] float-left mx-auto my-auto">
-					<img src="PauseProcessing-ExperimentSetupVideo.png" alt="virtual" class="w-[85vw] mx-auto my-[3vh]">
+					<img src="PauseProcessing-ExperimentSetupText.png" alt="virtual" class="w-[85vw] mx-auto my-[3vh]">
 					<figcaption>
 						Predicting the first word.
 					</figcaption>
@@ -648,7 +648,10 @@
 			We assess our hypothesis with two kinds of experiments: <br> <br>
 			1. We train a classifier to predict the first word of the utterance based on a representation
 			of the pause video. If this model outperforms the unigram perplexity, there must be
-			information in the pause.
+			information in the pause.<br> <br>
+			2. We design a discriminator that estimates whether a pause video and utterance form a pair
+			or not; we train this discriminator using contrastive learning. If this model is able to predict
+			pairings with better-than-random performance, there must be information in the pause.
 			
 		</Notes>
 	</Slide>
@@ -656,7 +659,7 @@
 	<Slide>
 		<Layout>
 			<titlebar style="display:block;">
-				Methodology - Response-centered
+				Methodology - Text-centered
 			</titlebar>
 
 			<mybody>
@@ -670,16 +673,13 @@
 			
 		</Layout>
 		<Notes>
-			We assess our hypothesis with two kinds of experiments: <br> <br>
-			2. We design a discriminator that estimates whether a pause video and utterance form a pair
-			or not; we train this discriminator using contrastive learning. If this model is able to predict
-			pairings with better-than-random performance, there must be information in the pause.
+			
 		</Notes>
 	</Slide>
 
 
 
-	<!-- Experiment ####################################################### -->
+	<!-- Experiment #######################################################
 	<script>newChapter("Experiment");</script>
 	<Slide>
 		<Layout>
@@ -701,7 +701,7 @@
 		<Notes>
 			Experiment
 		</Notes>
-	</Slide>
+	</Slide> -->
 
 
 	<!-- Results & Discussion ####################################################### -->
@@ -949,11 +949,245 @@
 	<Slide>
 		<Layout>
 			<titlebar style="display:block;">
+				Response Contents
+			</titlebar>
+
+			<mybody>
+				<div class="flex w-[95vw] items-center justify-center gap-[5px] p-2">
+				<figure>
+					<table class="text-[1.5vh]">
+						<tr>
+						<td>"Wir": 72</td>
+						<td>"Die": 49</td>
+						<td>"Ich": 41</td>
+						<td>"Und": 38</td>
+						<td>"Das": 37</td>
+						<td>"Es": 23</td>
+						<td>"Deshalb": 17</td>
+						<td>"Liebe": 17</td>
+						<td>"Sie": 16</td>
+						<td>"Aber": 14</td> </tr><tr>
+						<td>"Deutschland": 14</td>
+						<td>"Auch": 14</td>
+						<td>"In": 14</td>
+						<td>"Im": 11</td>
+						<td>"Der": 10</td>
+						<td>"Ein": 10</td>
+						<td>"Ja": 10</td>
+						<td>"Dazu": 9</td>
+						<td>"Diese": 8</td>
+						<td>"Denn": 8</td> </tr><tr>
+						<td>"Europa": 8</td>
+						<td>"Heute": 7</td>
+						<td>"Dabei": 7</td>
+						<td>"Wie": 7</td>
+						<td>"Unsere": 6</td>
+						<td>"Eine": 6</td>
+						<td>"Viele": 5</td>
+						<td>"Für": 5</td>
+						<td>"Doch": 5</td>
+						<td>"Bei": 5</td> </tr><tr>
+						<td>"Was": 5</td>
+						<td>"Dies": 5</td>
+						<td>"So": 5</td>
+						<td>"Vor": 4</td>
+						<td>"Zum": 4</td>
+						<td>"Mit": 4</td>
+						<td>"An": 3</td>
+						<td>"Überraschen": 3</td>
+						<td>"Da": 3</td>
+						<td>"Allerdings": 3</td> </tr><tr>
+						<td>"Am": 3</td>
+						<td>"Unser": 3</td>
+						<td>"Damit": 3</td>
+						<td>"Manche": 3</td>
+						<td>"Genau": 3</td>
+						<td>"Lassen": 3</td>
+						<td>"Zu": 3</td>
+						<td>"Um": 3</td>
+						<td>"Also": 3</td>
+						<td>"Jetzt": 2</td> </tr><tr>
+						<td>"Wer": 2</td>
+						<td>"Natürlich": 2</td>
+						<td>"Schon": 2</td>
+						<td>"Von": 2</td>
+						<td>"Dieser": 2</td>
+						<td>"Noch": 2</td>
+						<td>"Nur": 2</td>
+						<td>"Jeder": 2</td>
+						<td>"Nachwachsende": 2</td>
+						<td>"Ganz": 2</td> </tr><tr>
+						<td>"Inzwischen": 2</td>
+						<td>"Vielleicht": 2</td>
+						<td>"Nun": 2</td>
+						<td>"Anschließend": 2</td>
+						<td>"Gleichzeitig": 2</td>
+						<td>"Mein": 2</td>
+						<td>"Beides": 2</td>
+						<td>"Ihnen": 2</td>
+						<td>"Ludwig": 2</td>
+						<td>"Dem": 2</td> </tr><tr>
+						<td>"Insbesondere": 2</td>
+						<td>"Dennoch": 2</td>
+						<td>"Mir": 2</td>
+						<td>"Gelingen": 2</td>
+						<td>"Dafür": 2</td>
+						<td>"Wenn": 2</td>
+						<td>"Sicherlich": 2</td>
+						<td>"2014": 2</td>
+						<td>"aber": 2</td>
+						<td>"die": 2</td> </tr><tr>
+						<td>"und": 2</td>
+						<td>"following_sentence": 1</td>
+						<td>"Zweitens": 1</td>
+						<td>"Drittens": 1</td>
+						<td>"Viertens": 1</td>
+						<td>"Während": 1</td>
+						<td>"Videoüberwachung": 1</td>
+						<td>"Music": 1</td>
+						<td>"Zehn": 1</td>
+						<td>"Zur": 1</td> </tr><tr>
+						<td>"Ausgangspunkt": 1</td>
+						<td>"212": 1</td>
+						<td>"Verantwortung": 1</td>
+						<td>"Schicksale": 1</td>
+						<td>"Fassungslos": 1</td>
+						<td>"Holz": 1</td>
+						<td>"Kann": 1</td>
+						<td>"Womit": 1</td>
+						<td>"Durch": 1</td>
+						<td>"Warum": 1</td> </tr><tr>
+						<td>"Einige": 1</td>
+						<td>"Voriges": 1</td>
+						<td>"Energieversorgung": 1</td>
+						<td>"Sehen": 1</td>
+						<td>"Mittelständische": 1</td>
+						<td>"Normalerweise": 1</td>
+						<td>"Dass": 1</td>
+						<td>"All": 1</td>
+						<td>"Wahr": 1</td>
+						<td>"Andere": 1</td> </tr><tr>
+						<td>"Man": 1</td>
+						<td>"Oder": 1</td>
+						<td>"Seien": 1</td>
+						<td>"Dieses": 1</td>
+						<td>"Insgesamt": 1</td>
+						<td>"Glücklicherweise": 1</td>
+						<td>"Seit": 1</td>
+						<td>"everything": 1</td>
+						<td>"Beide": 1</td>
+						<td>"Menschenrechte": 1</td> </tr><tr>
+						<td>"Mich": 1</td>
+						<td>"Eines": 1</td>
+						<td>"Alle": 1</td>
+						<td>"Bund": 1</td>
+						<td>"Erinnern": 1</td>
+						<td>"1973": 1</td>
+						<td>"Gemessen": 1</td>
+						<td>"Darüber": 1</td>
+						<td>"Meine": 1</td>
+						<td>"Märkte": 1</td> </tr><tr>
+						<td>"Opel": 1</td>
+						<td>"Ob": 1</td>
+						<td>"Audi": 1</td>
+						<td>"Manch": 1</td>
+						<td>"Politisch": 1</td>
+						<td>"wie": 1</td>
+						<td>"2010": 1</td>
+						<td>"Davon": 1</td>
+						<td>"Export": 1</td>
+						<td>"Lithuania": 1</td> </tr><tr>
+						<td>"Nach": 1</td>
+						<td>"Montag": 1</td>
+						<td>"Eingesetzt": 1</td>
+						<td>"Will": 1</td>
+						<td>"Entstanden": 1</td>
+						<td>"oder": 1</td>
+						<td>"Slowenien": 1</td>
+						<td>"Auf": 1</td>
+						<td>"Wahrscheinlich": 1</td>
+						<td>"Damals": 1</td> </tr><tr>
+						<td>"Opfer": 1</td>
+						<td>"Osama": 1</td>
+						<td>"Religion": 1</td>
+						<td>"Jüngst": 1</td>
+						<td>"2011": 1</td>
+						<td>"Hier": 1</td>
+						<td>"Trotz": 1</td>
+						<td>"wo": 1</td>
+						<td>"Seitdem": 1</td>
+						<td>"Voraussetzung": 1</td> </tr><tr>
+						<td>"Blicken": 1</td>
+						<td>"Dann": 1</td>
+						<td>"ist": 1</td>
+						<td>"Brauchen": 1</td>
+						<td>"Denken": 1</td>
+						<td>"Zuversicht": 1</td>
+						<td>"Weil": 1</td>
+						<td>"Unternehmen": 1</td>
+						<td>"Gerade": 1</td>
+						<td>"Besonders": 1</td> </tr><tr>
+						<td>"also": 1</td>
+						<td>"vergleichbarer": 1</td>
+						<td>"Kraft": 1</td>
+						<td>"Jugend": 1</td>
+						<td>"Kürzlich": 1</td>
+						<td>"Übrigens": 1</td>
+						<td>"Diesen": 1</td>
+						<td>"Den": 1</td>
+						<td>"Freiheit": 1</td>
+						<td>"Ebenso": 1</td> </tr><tr>
+						<td>"Ist": 1</td>
+						<td>"National": 1</td>
+						<td>"International": 1</td>
+						<td>"Beim": 1</td>
+						<td>"Einerseits": 1</td>
+						<td>"Bürokratieabbau": 1</td>
+						<td>"Reisen": 1</td>
+						<td>"2016": 1</td>
+						<td>"Indem": 1</td>
+						<td>"Wo": 1</td> </tr><tr>
+						<td>"2017": 1</td>
+						<td>"Mut": 1</td>
+						<td>"Zusammenhalt": 1</td>
+						<td>"Keiner": 1</td>
+						<td>"Stichwort": 1</td>
+						<td>"alle": 1</td>
+						<td>"Nein": 1</td>
+						<td>"Diesem": 1</td>
+						<td>"den": 1</td>
+						<td>"eine": 1</td> </tr><tr>
+						<td>"Anfang": 1</td>
+						<td>"Geradezu": 1</td>
+						<td>"Andererseits": 1</td>
+						<td>"Gewissheiten": 1</td>
+						<td>"Millionen": 1</td>
+						<td>"genau": 1</td>
+						<td>"Immer": 1</td>
+						</tr>
+						</table>
+					<figcaption>
+						Frequencies of First Words.
+					</figcaption>
+				</figure>
+			</div>
+			</mybody>
+			
+		</Layout>
+		<Notes>
+			Response contents
+		</Notes>
+	</Slide>
+	
+
+	<Slide>
+		<Layout>
+			<titlebar style="display:block;">
 				Annotation Label Legend 
 			</titlebar>
 
 			<mybody>
-				<div class="flex w-[95vw] text-[2vh] items-center justify-center gap-[5px] p-2">
+				<div class="flex w-[95vw] text-[3vh] items-center justify-center gap-[5px] p-2">
 					<ul>
 						<li>m - Merkel</li>
 						<li>n - No Merkel visible</li>
