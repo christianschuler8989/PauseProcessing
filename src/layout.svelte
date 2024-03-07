@@ -24,8 +24,23 @@
 	:root{
 		--tumblue: #0065BD;
 		--secondblue: #8AB1DA;
-		--titlegreen: #004800;
-		--textgreen: #44A944;
+		--titlegreen: #254117;
+		--textgreen: #6CC417;
+		--titlebarbackground: #CAF2D4 ; /* rgb(202,242,212) */
+		--figcaptionbackground: #C0F2CA;  /* rgb(192,242,202) */
+		/* 
+		#254117 # Dark Forest Green
+		#004225 # Lotus Green
+		#004800 # "A very dark Green"
+		#046307 # Deep Emerald Green
+		#228B22 # Forest Freen
+		#08A04B # Irish Green
+		#44A944 # "A very light Green"
+		#347C17 # Shamrock Green
+		#6AA121 # Green Onion
+		#50C878 # Emerald
+		#6CC417 # Alien Green
+		*/
 		--themecolor: var(--titlegreen);
 		--themecolorlight: var(--textgreen);
 	}

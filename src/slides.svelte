@@ -128,16 +128,16 @@
 					<figure class="h-[55vh] w-[20vw] float-left mx-auto my-auto">
 						<img src="Christian_Schuler_01_Lecturing.jpg" alt="christian" class="h-[40vh]">
 						<figcaption class="text-[2.3vh]">
-							About to finish his masters in computer science at University of Hamburg.
+							Master student in computer science at University of Hamburg.
 						</figcaption>
 						<figcaption class="text-[1.3vh]">
-							He likes colors, languages and eats more pizza in one year than any of you in your lifetime!
+							With a passion for languages and colors, he aims to do a PhD. Additionally, he eats more pizza in one year than any of you in your lifetime!
 						</figcaption>
 					</figure>
 					<figure class="h-[55vh] w-[20vw] float-left mx-auto my-auto">
 						<img src="Shravan_Nayak_github.jpeg" alt="shravan" class="h-[40vh]">
 						<figcaption class="text-[2.3vh]">
-							Pursuing his research masters in computer science at Mila and the University of Montreal, supervised by Prof. Aishwarya Agrawal.
+							Master student in computer science at Mila and the University of Montreal.
 						</figcaption>
 						<figcaption class="text-[1.3vh]">
 							His focus lies in developing vision language systems that transcend linguistic barriers and cater to diverse demographics.
@@ -146,7 +146,7 @@
 					<figure class="h-[55vh] w-[20vw] float-left mx-auto my-auto">
 						<img src="Debjoy_Saha_Googlescholar.jpeg" alt="debjoy" class="h-[40vh]">
 						<figcaption class="text-[2.3vh]">
-							B.Tech + M.Tech (Dual Degree) student at IIT Kharagpur, pursuing joint degrees in Electronics and Computer Science.
+							B.Tech (Electronics) and M.Tech (Computer Science) student at IIT Kharagpur.
 						</figcaption>
 						<figcaption class="text-[1.3vh]">
 							Broadly, his research interests lie in machine learning for image, language and speech processing.
@@ -155,7 +155,7 @@
 					<figure class="h-[55vh] w-[20vw] float-left mx-auto my-auto">
 						<img src="Timo_Baumann_01.jpg" alt="timo" class="h-[40vh]">
 						<figcaption class="text-[2.3vh]">
-							Professor in Artificial Intelligence and Natural Language Processing at the School for CS and Maths at OTH Regensburg.
+							Professor in AI and NLP at the School for CS and Maths at OTH Regensburg.
 						</figcaption>
 						<figcaption class="text-[1.3vh]">
 							He researches spoken language, in particular in interactive and multi-modal scenarios, such as in spoken dialogue systems.
@@ -215,7 +215,79 @@
 	<Slide>
 		<Layout>
 			<titlebar style="display:block;">
-				Motivation
+				Motivation - Why Pauses?
+			</titlebar>
+
+			<mybody>
+				<div class="grid mx-auto my-auto" style="grid-template-columns: auto;">
+					<video controls class="w-[68vw] h-[75vh] mx-auto my-auto" autoplay>
+						<source src="motivation_speech.mp4" type="video/mp4" />
+						<track kind="captions" label="english_captions" srclang="en" src="captions_motivation_speech.vtt" default/>
+					</video>
+			
+					<!-- <div class="flex w-[22vw] mx-auto my-auto gap-[100px]">
+						subtitle position
+					</div> -->
+				</div>
+			</mybody>
+		</Layout>
+		<Notes>
+			Why even look into pauses, where nothing happens?
+		</Notes>
+	</Slide>
+
+	<Slide>
+		<Layout>
+			<titlebar style="display:block;">
+				Motivation - Why Pauses?
+			</titlebar>
+
+			<mybody>
+				<div class="grid mx-auto my-auto" style="grid-template-columns: auto;">
+					<video controls class="w-[68vw] h-[75vh] mx-auto my-auto" autoplay loop >
+						<source src="motivation_pause.mp4" type="video/mp4" />
+						<track kind="captions" label="english_captions" srclang="en" src="captions_motivation_pause_empty.vtt" default/>
+					</video>
+			
+					<!-- <div class="flex w-[22vw] mx-auto my-auto gap-[100px]">
+						subtitle position
+					</div> -->
+				</div>
+			</mybody>
+		</Layout>
+		<Notes>
+			
+		</Notes>
+	</Slide>
+
+	<Slide>
+		<Layout>
+			<titlebar style="display:block;">
+				Motivation - Why Pauses?
+			</titlebar>
+
+			<mybody>
+				<div class="grid mx-auto my-auto" style="grid-template-columns: auto;">
+					<video controls class="w-[68vw] h-[75vh] mx-auto my-auto" autoplay loop >
+						<source src="motivation_pause_slow.mp4" type="video/mp4" />
+						<track kind="captions" label="english_captions" srclang="en" src="captions_motivation_pause_full.vtt" default/>
+					</video>
+			
+					<!-- <div class="flex w-[22vw] mx-auto my-auto gap-[100px]">
+						subtitle position
+					</div> -->
+				</div>
+			</mybody>
+		</Layout>
+		<Notes>
+			
+		</Notes>
+	</Slide>
+
+	<Slide>
+		<Layout>
+			<titlebar style="display:block;">
+				Motivation - What to look for?
 			</titlebar>
 
 			<mybody>
@@ -228,7 +300,7 @@
 			</mybody>
 		</Layout>
 		<Notes>
-			What is it, that we are trying to do?
+			What is it, that we are trying to do / to find?
 		</Notes>
 	</Slide>
 
@@ -522,20 +594,88 @@
 
 			<mybody>
 				<figure class="h-[75vh] w-[95vw] float-left mx-auto my-auto">
-					<img src="PauseProcessing-DataPauses.png" alt="virtual" class="w-[65vw] mx-auto my-[3vh]">
+					<img src="PauseProcessing-DataPauses.png" alt="virtual" class="w-[85vw] mx-auto my-[3vh]">
 					<figcaption>
-						General overview of our experiment setup for first word prediction and discriminator training.
+						Overview of our experiment setup.
 					</figcaption>
 				</figure>
 			</mybody>
 			
 		</Layout>
 		<Notes>
-			General overview of our experiment setup for first word prediction and discriminator training.
+			Genral overview of our experiment setup for first word prediction and discriminator training.
 		</Notes>
 	</Slide>
 
+	<Slide>
+		<Layout>
+			<titlebar style="display:block;">
+				Methodology - Video-centered
+			</titlebar>
 
+			<mybody>
+				<figure class="h-[75vh] w-[95vw] float-left mx-auto my-auto">
+					<img src="PauseProcessing-ExperimentSetupVideo.png" alt="virtual" class="w-[85vw] mx-auto my-[3vh]">
+					<figcaption>
+						Video processing of pause contents.
+					</figcaption>
+				</figure>
+			</mybody>
+			
+		</Layout>
+		<Notes>
+			What we did to the video data of each pause we investigated.
+		</Notes>
+	</Slide>
+
+	<Slide>
+		<Layout>
+			<titlebar style="display:block;">
+				Methodology - Word-centered
+			</titlebar>
+
+			<mybody>
+				<figure class="h-[75vh] w-[95vw] float-left mx-auto my-auto">
+					<img src="PauseProcessing-ExperimentSetupVideo.png" alt="virtual" class="w-[85vw] mx-auto my-[3vh]">
+					<figcaption>
+						Predicting the first word.
+					</figcaption>
+				</figure>
+			</mybody>
+			
+		</Layout>
+		<Notes>
+			We assess our hypothesis with two kinds of experiments: <br> <br>
+			1. We train a classifier to predict the first word of the utterance based on a representation
+			of the pause video. If this model outperforms the unigram perplexity, there must be
+			information in the pause.
+			
+		</Notes>
+	</Slide>
+
+	<Slide>
+		<Layout>
+			<titlebar style="display:block;">
+				Methodology - Response-centered
+			</titlebar>
+
+			<mybody>
+				<figure class="h-[75vh] w-[95vw] float-left mx-auto my-auto">
+					<img src="PauseProcessing-ExperimentSetupVideo.png" alt="virtual" class="w-[85vw] mx-auto my-[3vh]">
+					<figcaption>
+						Pairing pauses with following responses.
+					</figcaption>
+				</figure>
+			</mybody>
+			
+		</Layout>
+		<Notes>
+			We assess our hypothesis with two kinds of experiments: <br> <br>
+			2. We design a discriminator that estimates whether a pause video and utterance form a pair
+			or not; we train this discriminator using contrastive learning. If this model is able to predict
+			pairings with better-than-random performance, there must be information in the pause.
+		</Notes>
+	</Slide>
 
 
 
@@ -655,18 +795,18 @@
 			</titlebar>
 
 			<mybody>
-				<figure class="h-[75vh] w-[95vw] float-left mx-auto my-auto">
-					<img src="construction-itsupport.png" alt="conlcusions" class="h-[55vh] mx-auto my-[3vh]">
-					<figcaption>
-						Bacon Ipsum Dolor Cheesecake.<br>
-						Pizza? You mean "yum-yum in my tum-tum"! :D
-					</figcaption>
-				</figure>
+				<ol>
+					<li>(1.) Expand annotation for the Merkel Podcast Corpus</li>
+					<br>
+					<li>(2.) Propose workflow for pause annotation</li>
+					<br>
+					<li>(3.) Present first assessment of pause content information</li>
+				</ol> 
 			</mybody>
 			
 		</Layout>
 		<Notes>
-			Conclusions
+			Our contribution in three parts
 		</Notes>
 	</Slide>
 
@@ -751,22 +891,95 @@
 	<Slide>
 		<Layout>
 			<titlebar style="display:block;">
-				Appendix
+				References
 			</titlebar>
 
 			<mybody>
-				<div class="h-[75vh] w-[95vw]">
-					<iframe src="2024-ESSV-Schuler_Nayak_Saha_Baumann-CanWeSeeYourResponseBeforeYouSpeak.pdf#page=1&zoom=200" frameBorder="0" scrolling="auto" height="100%" width="100%" title="ESSV Publication"></iframe>
+				<div class="flex w-[95vw] text-[1.5vh] items-center justify-center gap-[5px] p-2">
+					<ul>
+						<li>[1] SHILLINGFORD, B., Y. ASSAEL, M. W. HOFFMAN, T. PAINE, C. HUGHES, U. PRABHU, H. LIAO, H. SAK, K. RAO, L. BENNETT, M. MULVILLE, B. COPPIN, B. LAURIE, A. SENIOR, and N. DE FREITAS: Large-scale visual speech recognition. 2018. 1807. 05162.</li>
+						<li>[2] CHATZIAGAPI, A., D. SGOUROPOULOS, C. KAROUZOS, T. MELISTAS, T. GIANNAKOPOULOS, A. KATSAMANIS, and S. NARAYANAN: Audio and ASR-based Filled Pause Detection. In 2022 10th International Conference on Affective Computing and Intelligent Interaction (ACII), pp. 1–7. IEEE, Nara, Japan, 2022. doi:10.1109/ACII55700.2022.9953889.</li>
+						<li>[3] KALIYEV, A., S. V. RYBIN, and Y. MATVEEV: The Pausing Method Based on Brown Clustering and Word Embedding. In A. KARPOV, R. POTAPOVA, and I. MPORAS (eds.), Speech and Computer, Lecture Notes in Computer Science, pp. 741–747. Springer International Publishing, Cham, 2017. doi:10.1007/978-3-319-66429-3_74.</li>
+						<li>[4] MATSUNAGA, Y., T. SAEKI, S. TAKAMICHI, and H. SARUWATARI: Improving robustness of spontaneous speech synthesis with linguistic speech regularization and pseudo-filled-pause insertion. In 12th Speech Synthesis Workshop (SSW) 2023. 2023.</li>
+						<li>[5] DENDUKURI, S., P. CHITKARA, J. R. A. MONIZ, X. YANG, M. TSAGKIAS, and S. PULMAN: Using Pause Information for More Accurate Entity Recognition. In Proceedings of the 3rd Workshop on Natural Language Processing for Conversational AI, pp. 243–250. Associ- ation for Computational Linguistics, Online, 2021. doi:10.18653/v1/2021.nlp4convai-1.22.</li>
+						<li>[6] SCHLANGEN, D., T. BAUMANN, and M. ATTERER: Incremental Reference Resolution: The Task, Metrics for Evaluation, and a Bayesian Filtering Model that is Sensitive to Disfluencies. Proceedings of SIGDIAL 2009:, 10th(0th Annual Meeting of the Special Interest Group in Discourse and Dialogue), pp. 30–37, 2009.</li>
+						<li>[7] YANG, D., T. KORIYAMA, Y. SAITO, T. SAEKI, D. XIN, and H. SARUWATARI: Duration-aware pause insertion using pre-trained language model for multi-speaker text-to-speech. 2023. doi:10.48550/arXiv.2302.13652. 2302.13652.</li>
+						<li>[8] HOOGLAND, D., L. WHITE, and S. KNIGHT: Speech Rate and Turn-Transition Pause Duration in Dutch and English Spontaneous Question-Answer Sequences. Languages, 8(2), p. 115, 2023. doi:10.3390/languages8020115.</li>
+						<li>[9] SCHETTINO, L., M. D. MARO, and F. CUTUGNO: Silent pauses as clarification trigger. Laughter and Other Non-Verbal Vocalisations Workshop: Proceedings (2020), 2020. doi:10.4119/lw2020-927. [10] BAUMANN, T.: How a Listener Influences the Speaker. In Proc. Speech Prosody 2020, pp. 970–974. 2020. doi:10.21437/SpeechProsody.2020-198.</li>
+						<li>[11] KOUTSOMBOGERA, M. and C. VOGEL: Speech Pause Patterns in Collaborative Dialogs. In A. ESPOSITO, A. M. ESPOSITO, and L. C. JAIN (eds.), Innovations in Big Data Mining and Embedded Knowledge, Intelligent Systems Reference Library, pp. 99–115. Springer International Publishing, Cham, 2019. doi:10.1007/978-3-030-15939-9_6.</li>
+						<li>[12] MATZINGER, T., M. PLEYER, and P. ˙ZYWICZY ´NSKI: Pause Length and Differences in Cognitive State Attribution in Native and Non-Native Speakers. Languages, 8(1), p. 26, 2023. doi:10.3390/languages8010026.</li>
+						<li>[13] LIU, J., F. FU, L. LI, J. YU, D. ZHONG, S. ZHU, Y. ZHOU, B. LIU, and J. LI: Efficient Pause Extraction and Encode Strategy for Alzheimer’s Disease Detection Using Only Acoustic Features from Spontaneous Speech. Brain Sciences, 13(3), p. 477, 2023. doi:10.3390/brainsci13030477.</li>
+						<li>[14] GREDEN, J. F., A. A. ALBALA, I. A. SMOKLER, R. GARDNER, and B. J. CARROLL: Speech pause time: A marker of psychomotor retardation among endogenous depressives. Biological Psychiatry, 16(9), pp. 851–859, 1981.</li>
+						<li>[15] ADDLESEE, A., A. ESHGHI, and I. KONSTAS: Current Challenges in Spoken Dialogue Systems and Why They Are Critical for Those Living with Dementia. 2019. doi:10.48550/arXiv.1909.06644. 1909.06644. </li>
+						<li>[16] SAHA, D., S. NAYAK, and T. BAUMANN: Merkel Podcast Corpus: A Multimodal Dataset Compiled from 16 Years of Angela Merkel’s Weekly Video Podcasts. In N. CALZOLARI, F. BÉCHET, P. BLACHE, K. CHOUKRI, C. CIERI, T. DECLERCK, S. GOGGI, H. ISAHARA, B. MAEGAARD, J. MARIANI, H. MAZO, J. ODIJK, and S. PIPERIDIS (eds.), Proceed- ings of the Thirteenth Language Resources and Evaluation Conference, pp. 2536–2540. European Language Resources Association, Marseille, France, 2022.</li>
+						<li>[17] BALTRUSAITIS, T., A. ZADEH, Y. C. LIM, and L.-P. MORENCY: OpenFace 2.0: Facial Behavior Analysis Toolkit. In 2018 13th IEEE International Conference on Automatic Face & Gesture Recognition (FG 2018), pp. 59–66. 2018. doi:10.1109/FG.2018.00019.</li>
+						<li>[18] RADFORD, A., J. W. KIM, C. HALLACY, A. RAMESH, G. GOH, S. AGARWAL, G. SAS- TRY, A. ASKELL, P. MISHKIN, J. CLARK, G. KRUEGER, and I. SUTSKEVER: Learning transferable visual models from natural language supervision. 2021. 2103.00020.</li>
+						<li>[19] BERTASIUS, G., H. WANG, and L. TORRESANI: Is space-time attention all you need for video understanding? 2021. 2102.05095.</li>
+						<li>[20] VASWANI, A., N. M. SHAZEER, N. PARMAR, J. USZKOREIT, L. JONES, A. N. GOMEZ, L. KAISER, and I. POLOSUKHIN: Attention is all you need. In Neural Information Process- ing Systems. 2017. URL https://api.semanticscholar.org/CorpusID:13756489.</li>
+						<li>[21] REIMERS, N. and I. GUREVYCH: Making Monolingual Sentence Embeddings Multilingual using Knowledge Distillation. In Proceedings of the 2020 Conference on Empirical Methods in Natural Language Processing (EMNLP), pp. 4512–4525. Association for Computational Linguistics, Online, 2020. doi:10.18653/v1/2020.emnlp-main.365.</li>
+						<li>[22] PEI, J., A. ANANTHASUBRAMANIAM, X. WANG, N. ZHOU, A. DEDELOUDIS, J. SAR-GENT, and D. JURGENS: Potato: The portable text annotation tool. In Proceedings of the 2022 Conference on Empirical Methods in Natural Language Processing: System Demonstrations. 2022.</li>
+					</ul>
 				</div>
 			</mybody>
 			
 		</Layout>
 		<Notes>
-			Appendix
+			References
 		</Notes>
 	</Slide>
 
+	<Slide>
+		<Layout>
+			<titlebar style="display:block;">
+				Our Paper
+			</titlebar>
 
+			<mybody>
+				<div class="h-[75vh] w-[95vw]">
+					<iframe src="2024-ESSV-Schuler_Nayak_Saha_Baumann-CanWeSeeYourResponseBeforeYouSpeak.pdf#page=1&zoom=150" frameBorder="0" scrolling="auto" height="100%" width="100%" title="ESSV Publication"></iframe>
+				</div>
+			</mybody>
+			
+		</Layout>
+		<Notes>
+			Our Paper
+		</Notes>
+	</Slide>
+
+	<Slide>
+		<Layout>
+			<titlebar style="display:block;">
+				Annotation Label Legend 
+			</titlebar>
+
+			<mybody>
+				<div class="flex w-[95vw] text-[2vh] items-center justify-center gap-[5px] p-2">
+					<ul>
+						<li>m - Merkel</li>
+						<li>n - No Merkel visible</li>
+						<li>a - animation transition</li>
+						<li>i - interviewer</li>
+						<li>t - textlabel</li>
+						<li>c - cut changing distance towards Merkel</li>
+						<li>o - cut changing distance away from Merkel</li>
+						<li>si - switch from Merkel to Interviewer</li>
+						<li>sm - switch from Interviewer to Merkel</li>
+						<li>b - both people in frame front of Merkel</li>
+						<li>p - both people in frame front of Interviewer</li>
+						<li>r - sign-language translator on the right side of screen</li>
+						<li>l - sign-language translator on the left side of screen</li>
+						<li>fi - fade-in (Merkel is visible at end of pause)</li>
+						<li>fo - fade-out (Merkel is visible at begin of pause)</li>
+					</ul>
+				</div>
+			</mybody>
+			
+		</Layout>
+		<Notes>
+			References
+		</Notes>
+	</Slide>
+	
 
 
 	<!-- to mimic the latex template  -->
@@ -866,12 +1079,16 @@
 		}
 		ul{
 			text-align: left;
-			margin-left:20vh;
+			margin-left:2vh;
 			margin-right:5vh;
+		}
+		li{
+			text-align: left;
+			padding-top:0.5vh;
 		}
 		titlebar{
 			display:flex;
-			background: rgb(202,242,212); 
+			background: var(--titlebarbackground); 
 			width: 100vw; 
 			height: 9vh; 
 			text-align: left;
@@ -891,7 +1108,7 @@
 			margin: auto;
 		}
 		figcaption{
-			background-color: rgb(192,242,202);
+			background-color: var(--figcaptionbackground);
 			color: black;
 			font-style: italic;
 			padding: 2px;
