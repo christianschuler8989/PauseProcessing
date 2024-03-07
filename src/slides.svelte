@@ -591,27 +591,7 @@
 		</Notes>
 	</Slide>
 
-	<Slide>
-		<Layout>
-			<titlebar style="display:block;">
-				Data for Annotation - Optimistic
-			</titlebar>
 
-			<mybody>
-				<figure class="h-[75vh] w-[95vw] float-left mx-auto my-auto">
-					<img src="PauseProcessing-AnnotationSetupOptimist.png" alt="annotation_setup" class="h-[65vh] mx-auto my-[1vh]">
-					<figcaption>
-						Short video prior and after pause.
-					</figcaption>
-				</figure>
-			</mybody>
-			
-		</Layout>
-		<Notes>
-			Taking short video sequences instead, we are now able to tell, who is the one speaking at these times.
-		</Notes>
-	</Slide>
-	
 	<Slide>
 		<Layout>
 			<titlebar style="display:block;">
@@ -635,6 +615,27 @@
 		</Notes>
 	</Slide>
 
+	<Slide>
+		<Layout>
+			<titlebar style="display:block;">
+				Data for Annotation - Optimistic
+			</titlebar>
+
+			<mybody>
+				<figure class="h-[75vh] w-[95vw] float-left mx-auto my-auto">
+					<img src="PauseProcessing-AnnotationSetupOptimist.png" alt="annotation_setup" class="h-[65vh] mx-auto my-[1vh]">
+					<figcaption>
+						Short video prior and after pause.
+					</figcaption>
+				</figure>
+			</mybody>
+			
+		</Layout>
+		<Notes>
+			Taking short video sequences instead, we are now able to tell, who is the one speaking at these times.
+		</Notes>
+	</Slide>
+	
 	<Slide>
 		<Layout>
 			<titlebar style="display:block;">
